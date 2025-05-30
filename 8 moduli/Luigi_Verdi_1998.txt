@@ -1,0 +1,5 @@
+Nome: Luigi
+Cognome: Verdi
+Data di nascita: 15/9/1998
+Voto Medio: 30
+Età: 25 anni

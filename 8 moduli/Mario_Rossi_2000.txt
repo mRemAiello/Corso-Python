@@ -1,0 +1,5 @@
+Nome: Mario
+Cognome: Rossi
+Data di nascita: 10/5/2000
+Voto Medio: 28
+Età: 24 anni
