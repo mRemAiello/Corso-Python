@@ -18,11 +18,19 @@ class MainWindow(QMainWindow):
         # Creiamo la barra dei menu
         menu = self.menuBar()
         file_menu = menu.addMenu('File')
+        edit_menu = menu.addMenu("Edit")
+        view_menu = menu.addMenu("View")
 
         # Creiamo un'azione per il menu
         save_action = QAction('Salva', self)
         save_action.triggered.connect(self.save_file)
         file_menu.addAction(save_action)
+
+        #
+        undo_action = QAction("Undo", self)
+        redo_action = QAction("Redo", self)
+        edit_menu.addAction(undo_action)
+        edit_menu.addAction(redo_action)
 
         # Creiamo una toolbar
         toolbar = QToolBar()

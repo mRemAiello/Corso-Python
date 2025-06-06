@@ -88,7 +88,8 @@ print(dipendente)
 # Creare la classe GiocoInScatola in cui andranno memorizzate, oltre alle informazioni della scatola, anche il numero di giocatori e il nome del gioco.
 # Si crei inoltre per entrambe le classi un metodo __str__ che permette di stampare a schermo i valori degli attributi dell’istanza sul quale è richiamato.
 # Testare le classi con un opportuno main.
-# Tra le prove, far inserire le informazioni di due giochi da tastiera e poi dire quali tra i due ha il rapporto volume/numero di giocatori maggiore.
+# Istanziare 4 giochi, 2 con parametri a scelta e 2 con parametri scelti mediante input().
+# Poi dire quali tra i 4 ha il rapporto volume/numero di giocatori maggiore.
 
 
 
