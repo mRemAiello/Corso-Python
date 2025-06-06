@@ -30,20 +30,19 @@
 #             carica_da_file(percorso_file)
 
 
-#     Interfaccia Grafica con PySide6
+# Interfaccia Grafica con PySide6
+
+#   Menu principale con:
+#       Elenco (QListWidget) che mostra i libri inseriti
 
 
-#         Campo di input per ciascun attributo del libro
+#   Campo di input per ciascun attributo del libro
+#       Pulsanti:
+#           "Aggiungi Libro"
+#           "Modifica libro"
+#           "Salva Libreria"
+#           "Carica Libreria"
 
-#         Pulsanti:
-
-#               "Aggiungi Libro"
-#               "Modifica libro"
-#               "Salva Libreria"
-#               "Carica Libreria"
-
+# Aggiungere anche:
 # Gestione Salvataggio e caricamento
-
 # Finestre di QDialog per gestire la conferma delle operazioni
-
-#         Elenco (QListWidget) che mostra i libri inseriti
