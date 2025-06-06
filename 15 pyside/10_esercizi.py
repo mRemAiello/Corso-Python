@@ -31,16 +31,19 @@
 
 
 #     Interfaccia Grafica con PySide6
-#
-#         Campo di input per ciascun attributo del libro
-#
-#         Pulsanti:
-#
-#             "Aggiungi Libro"
-#
-#             "Salva Libreria"
-#
-#             "Carica Libreria"
 
+
+#         Campo di input per ciascun attributo del libro
+
+#         Pulsanti:
+
+#               "Aggiungi Libro"
+#               "Modifica libro"
+#               "Salva Libreria"
+#               "Carica Libreria"
+
+# Gestione Salvataggio e caricamento
+
+# Finestre di QDialog per gestire la conferma delle operazioni
 
 #         Elenco (QListWidget) che mostra i libri inseriti
