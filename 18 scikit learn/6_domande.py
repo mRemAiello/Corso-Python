@@ -28,22 +28,6 @@ def chiedi_e_predici():
         print("\n❗ Errore: assicurati di inserire valori numerici validi.\n")
 
 
-# Funzione principale con menu
-def menu():
-    while True:
-        print("=== Sistema di Classificazione Iris ===")
-        print("1. Classifica un nuovo fiore")
-        print("2. Esci")
-        scelta = input("Seleziona un'opzione (1-2): ")
-
-        if scelta == '1':
-            chiedi_e_predici()
-        elif scelta == '2':
-            print("\n👋 Uscita dal programma. Arrivederci!\n")
-            break
-        else:
-            print("\n❗ Scelta non valida. Riprova.\n")
-
 
 # Caricamento dataset
 data = load_iris()
@@ -74,4 +58,16 @@ target_names = data.target_names
 
 
 # Avvio del menu
-menu()
+while True:
+    print("=== Sistema di Classificazione Iris ===")
+    print("1. Classifica un nuovo fiore")
+    print("2. Esci")
+    scelta = input("Seleziona un'opzione (1-2): ")
+
+    if scelta == '1':
+        chiedi_e_predici()
+    elif scelta == '2':
+        print("\n👋 Uscita dal programma. Arrivederci!\n")
+        break
+    else:
+        print("\n❗ Scelta non valida. Riprova.\n")

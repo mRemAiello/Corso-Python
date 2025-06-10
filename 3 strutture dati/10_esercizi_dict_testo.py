@@ -36,5 +36,6 @@
 # Estrai una carta casuale a partire da un seme chiesto all'utente. Estrai anche una carta casuale senza chiedere nulla all'utente.
 
 # Unisci 2 dizionari qualunque in un terzo.
+# Poi cerca di generalizzare l'algoritmo e unisci N dizionari dentro un dizionario.
 
-# Prendi 2 dizionari e inverti le chiavi in valori e viceversa.
+# Dati2 dizionari, uniscili in un terzo invertendo le chiave con i valori e viceversa.

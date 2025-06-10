@@ -11,13 +11,23 @@ X = data.data
 y = data.target
 
 # Suddivisione in train e test
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.45, random_state=42)
 
 # Pipeline con scaler e modello di classificazione
 pipeline = Pipeline([
     ('scaler', StandardScaler()),
     ('classifier', LogisticRegression(max_iter=200))
 ])
+
+
+# Dataset
+# X => [4.6 3.6 1.  0.2] ....
+# Y => ['iris', 'virginica' ....]
+# X_train => 200
+# Y_train => 200
+# X_test => 100
+# Lancio il test su X_test e lui mi darà 100 risposte => iris, versicolor...
+# Y_test => 100
 
 # Addestramento del modello
 # Fitting -> X_train -> y_train
