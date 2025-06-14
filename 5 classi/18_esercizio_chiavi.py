@@ -1,4 +1,5 @@
-# Realizzare 3 classi Chiave (Le chiavi possono essere meccaniche, magnetiche e con microchip) con le seguenti caratteristiche :
+# Realizzare 3 classi Chiave (Le chiavi possono essere meccaniche, magnetiche e con microchip)
+# con le seguenti caratteristiche :
 # descrizione, peso
 # Le chiavi magnetiche sono caratterizzate dall'ampiezza, le chiavi meccaniche da un numero di dentelli.
 # Sia le chiavi meccaniche che quelle magnetiche sono rappresentate dalla lunghezza.
@@ -36,20 +37,31 @@ class Chiave:
 
     def __str__(self):
         stringa = "Descrizione: {}, Peso: {}"
-        return stringa.format(self.__descrizione, self.__peso)
+        return stringa.format(self.get_descrizione(), self.get_peso())
 
 
 class ChiaveConLunghezza(Chiave):
 
-    lunghezza = 0
+    __lunghezza = 0
 
     def __init__(self, descrizione, peso, lunghezza):
         super().__init__(descrizione, peso)
-        self.lunghezza = lunghezza
+        self.set_lunghezza(lunghezza)
+
+    def set_lunghezza(self, lunghezza):
+        if type(lunghezza) == int:
+            self.__lunghezza = lunghezza
+        elif lunghezza.isnumeric():
+            self.__lunghezza = int(lunghezza)
+        else:
+            print("La lunghezza della chiave non è un numero")
+
+    def get_lunghezza(self):
+        return self.__lunghezza
 
     def __str__(self):
         stringa = super().__str__() + ", Lunghezza: {}"
-        return stringa.format(self.lunghezza)
+        return stringa.format(self.get_lunghezza())
 
 
 class ChiaveMeccanica(ChiaveConLunghezza):
@@ -86,9 +98,13 @@ class ChiaveConMicrochip(Chiave):
         super().__init__(descrizione, peso)
         self.codice_seriale = codice_seriale
 
+    def cambia_seriale(self, codice):
+        self.codice_seriale = codice
+        print("Codice seriale aggiornato")
+
     def __str__(self):
-        str = super().__str__() + ", Codice Seriale: {}"
-        return str.format(self.codice_seriale)
+        stringa = super().__str__() + ", Codice Seriale: {}"
+        return stringa.format(self.codice_seriale)
 
 
 

@@ -1,18 +1,15 @@
 # Un Elemento Multimediale è una Immagine, un Filmato o una registrazione Audio identificato da un titolo (una stringa non vuota).
-# Un elemento è riproducibile se ha una durata (un valore positivo di tipo int) e un metodo play().
+# Un elemento è riproducibile se ha una durata (un valore positivo di tipo int) maggiore di 0, un metodo play() e show()
+# Eseguire un oggetto multimediale significa invocarne il metodo show() se è un'immagine o il metodo play() se è riproducibile.
 
-# Una registrazione Audio è riproducibile e ha associato anche un volume (un valore positivo di tipo int) e i metodi weaker() e louder() per regolarlo.
-# Se riprodotta, ripete per un numero di volte pari alla durata la stampa del titolo concatenato a una sequenza di punti esclamativi di lunghezza
-# pari al volume (una stampa per riga).
+# Una registrazione Audio è riproducibile e ha associato anche un volume (un valore positivo di tipo int)
+# e i metodi weaker() e louder() per regolarlo.
+# Se riprodotta, scrive a schermo qualcosa.
 
 # Una Immagine non è riproducibile, ma ha una luminosità regolabile analoga a quella dei filmati e un metodo show()
-# che stampa il titolo concatenato a una sequenza di asterischi di lunghezza pari alla luminosità
-# Eseguire un oggetto multimediale significa invocarne il metodo show() se è un'immagine o il metodo play() se è riproducibile.
 
 # Un Filmato è riproducibile e ha associato un volume regolabile analogo a quello delle registrazioni audio e
 # anche una luminosità (un valore positivo di tipo int) e i metodi brighter() e darker() per regolarla.
-# Se riprodotta, ripete per un numero di volte pari alla durata la stampa del titolo concatenato a una sequenza
-# di punti esclamativi di lunghezza pari al volume e poi a una sequenza di asterischi di lunghezza pari alla luminosità (una stampa per riga).
 
 # Organizzare opportunamente il codice di un lettore multimediale
 # che memorizza 5 elementi (creati con valori letti da tastiera) in un array e poi chiede ripetutamente
@@ -149,8 +146,8 @@ class Immagine(ElementoMultimediale):
 
 class Filmato(ElementoRiproducibile):
 
-    __immagine = Immagine("", 1)
-    __audio = Audio("", 0, 0)
+    __immagine = None
+    __audio = None
 
     def __init__(self, titolo, durata, volume, luminosita):
         super().__init__(titolo, durata)

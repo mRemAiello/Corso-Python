@@ -8,9 +8,4 @@ cliente = md.Cliente()
 md.saluta2("")
 
 # Chiamo la funzione
-md.saluta("Antonio")
-
-
-
-# Dir ci permette di elencare le funzioni
-print(dir(md))
+md.saluta("Marco")

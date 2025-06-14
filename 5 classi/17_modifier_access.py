@@ -58,6 +58,7 @@ print(studente.get_nome_completo())
 
 studente.preleva(500)
 studente.preleva(-200)
+studente.preleva(600)
 print(studente.get_soldi())
 
 #

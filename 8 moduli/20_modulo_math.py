@@ -10,6 +10,10 @@ print(min(y))
 x = max(1, 2, 3)
 print(x)
 
+# Massimo di una lista
+x = [1, 2, 3, 4, 5]
+print(max(x))
+
 # Valore assoluto
 x = abs(-10)
 print(x)
