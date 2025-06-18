@@ -27,7 +27,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # Addestra il modello
-model.fit(train_images, train_labels, epochs=10, batch_size=64, validation_split=0.1)
+model.fit(train_images, train_labels, epochs=25, batch_size=64, validation_split=0.1)
 
 # Valutazione finale
 loss, accuracy = model.evaluate(test_images, test_labels)
@@ -38,7 +38,8 @@ model.save("mnist_model.h5")
 model.save('my_model.keras')
 
 # Epoch
-# Nel contesto del machine learning e del deep learning, un epoch rappresenta un intero passaggio del dataset di addestramento attraverso il modello.
+# Nel contesto del machine learning e del deep learning, un epoch rappresenta un intero passaggio
+# del dataset di addestramento attraverso il modello.
 # Definizione formale:
 #
 #     1 epoch = 1 iterazione completa su tutti i dati di training.

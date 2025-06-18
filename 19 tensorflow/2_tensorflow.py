@@ -34,7 +34,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # Addestramento del modello
-model.fit(train_images, train_labels, epochs=10, batch_size=64, validation_split=0.1)
+model.fit(train_images, train_labels, epochs=100, batch_size=64, validation_split=0.1)
 
 # Valutazione sul test set
 test_loss, test_acc = model.evaluate(test_images, test_labels)

@@ -46,3 +46,5 @@ image_path = 'cifra_3.jpg'  # Sostituisci con il percorso della tua immagine
 predict_digit(image_path)
 image_path = 'cifra_4.jpg'  # Sostituisci con il percorso della tua immagine
 predict_digit(image_path)
+image_path = 'cifra_5.jpg'  # Sostituisci con il percorso della tua immagine
+predict_digit(image_path)
