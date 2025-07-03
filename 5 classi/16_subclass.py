@@ -64,6 +64,15 @@ class Dipendente(Persona):
         return stringa
 
 
+class Dirigente(Dipendente):
+
+    ruolo_aziendale = ""
+
+    def __init__(self, nome, cognome, eta, id_azienda, ruolo):
+        super().__init__(nome, cognome, eta, id_azienda)
+        self.ruolo_aziendale = ruolo
+
+
 #
 persona = Persona('Luca', 'Rossi', 20)
 persona.saluta()

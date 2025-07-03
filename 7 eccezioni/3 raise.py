@@ -16,6 +16,10 @@ def funzione_con_eccezione():
 
 # Gestisco l'eccezione
 
+# Funzione lanciata normalmente
+# funzione_con_eccezione()
+
+# Con gestione errori
 try:
     funzione_con_eccezione()
 except MyException:

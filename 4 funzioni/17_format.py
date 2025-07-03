@@ -13,10 +13,11 @@ print(str2 + str3)
 
 
 # Usa format
-prova = "Ciao io sono {} e ho {} anni"
+# "Ciao io sono " + nome + " e ho " + str(eta) + " anni, peso" + peso + "
+prova = "Ciao io sono {} e ho {} anni, peso {}, sono alto {}"
 print(prova)
-print(prova.format("Samuele", 20))
-print(prova.format("Mirko", 34))
+print(prova.format("Samuele", 20, 80, 180))
+print(prova.format("Mirko", 34, 80, 180))
 
 
 # Posso farlo più volte usando anche gli indici

@@ -8,7 +8,7 @@ def dividi(numeratore, denominatore):
     except ZeroDivisionError:
         # Gestisce l'errore di divisione per zero
         print("Errore: Non è possibile dividere per zero.")
-        return 0
+        return None
     except TypeError:
         # Gestisce l'errore di tipo, nel caso i dati forniti non siano numeri
         print("Errore: Sono accettati solo numeri.")
