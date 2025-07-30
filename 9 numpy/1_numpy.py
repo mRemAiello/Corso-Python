@@ -33,8 +33,7 @@ array1D = np.array([1, 2, 3])
 # Dimensione 2: matrici
 # 1 2 3
 # 4 5 6
-array2D = np.array([[1, 2, 3],
-                    [4, 5, 6]])
+array2D = np.array([[1, 2, 3], [4, 5, 6]])
 
 print(array0D)
 print(array1D)

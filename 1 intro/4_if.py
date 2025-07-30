@@ -24,7 +24,6 @@ else:
 if panini < 10 and panini > 3:
     print("Non c'è abbastanza pane")
 
-
 # Oppure
 if panini > 10 or panini == 3:
     print("C'è abbastanza pane")

@@ -16,6 +16,7 @@ for x in array1D:
 print()
 
 for x in array2D:
+    print(x)
     for y in x:
         print(y)
 print()

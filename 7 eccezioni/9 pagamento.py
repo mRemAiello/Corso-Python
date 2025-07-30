@@ -4,6 +4,8 @@
 # - MetodoPagamentoNonSupportatoException
 # - TransazioneFallitaException
 # Implementa un metodo effettua_pagamento() che solleva queste eccezioni quando necessario.
+# TODO: Inserire un sistema reale di pagamento che vada a considerare tutte le possibilità a
+#  livello di pagamenti (carta di credito, paypal ecc)
 
 from random import choice
 
@@ -27,7 +29,7 @@ class TransazioneFallitaException(Exception):
 
 class Pagamento:
 
-    metodi_supportati = ["carta_credito", "paypal", "bonifico"]
+    metodi_supportati = ["carta_credito", "paypal", "bonifico", "carta_cripto"]
 
     def __init__(self, saldo_iniziale):
         self.saldo = saldo_iniziale
@@ -43,7 +45,7 @@ class Pagamento:
 
         try:
             # Simulazione di una possibile eccezione generica (es. errore di rete, banca offline, ecc.)
-            if choice([True, False]):
+            if choice([True, False, False, False, False, False]):
                 raise RuntimeError("Errore imprevisto nel sistema bancario")
 
             # Esecuzione del pagamento
@@ -59,8 +61,10 @@ class Pagamento:
 account = Pagamento(saldo_iniziale=100)
 
 try:
+    #account.effettua_pagamento(50, "paypal")
     account.effettua_pagamento(50, "paypal")
-    account.effettua_pagamento(70, "carta_cripto")  # metodo non supportato
+    account.effettua_pagamento(50, "paypal")
+    #account.effettua_pagamento(70, "carta_cripto")  # metodo non supportato
 except MetodoPagamentoNonSupportatoException as e:
     print(f"❌ Errore: {e}")
 except SaldoInsufficienteException as e:
