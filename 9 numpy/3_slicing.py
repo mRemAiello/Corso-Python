@@ -22,4 +22,6 @@ print(arr[1:7:2])
 
 # Slice array 2D
 arr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+# Riga 0 -> [1 2 3 4 5]
+# Riga 1 -> [6 7 8 9 10]
 print(arr[1, 1:4])
