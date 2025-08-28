@@ -5,12 +5,12 @@ x = [25, 26, 27, 28]
 y = [10, 40, 20, 50]
 
 #
-# plt.plot(x, y)
+#plt.plot(x, y)
 
 
 # Plot multipli
 y1 = [20, 20, 15, 80]
-# plt.plot(x, y1)
+#plt.plot(x, y1)
 # plt.show()
 
 
@@ -32,12 +32,13 @@ plt.title("Grafico età / valori")
 plt.xlabel("Età")
 plt.ylabel("Valori")
 plt.legend(["Italiani", "Inglesi"])
+"""
 
 
 # Stili
 print(plt.style.available)
 plt.style.use("dark_background")
-plt.grid()
+plt.grid()"""
 plt.show()
 
 

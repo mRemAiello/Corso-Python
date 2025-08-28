@@ -1,5 +1,7 @@
 # Creare un grafico a linee che mostri l'andamento di una funzione y= x^2.
 
+# Creare un grafico a linee che mostri l'andamento di una funzione y = fattoriale(x)
+
 # Creare un grafico a linee che mostri l'andamento delle temperature medie (asse y)
 # mensili (asse x) di una città (i mesi sono stringhe).
 

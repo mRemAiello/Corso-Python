@@ -1,7 +1,5 @@
 from matplotlib import pyplot as plt
 
-plt.style.use("ggplot")
-
 slices = [35, 100, 150, 200]
 labels = ["si", "no", "forse", "non so"]
 colors = ["green", "orange", "blue", "red"]

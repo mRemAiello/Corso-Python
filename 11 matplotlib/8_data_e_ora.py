@@ -2,9 +2,6 @@ from matplotlib import pyplot as plt
 from matplotlib import dates as mpl_dates
 from datetime import datetime, timedelta
 
-plt.style.use("ggplot")
-
-
 x = [
     datetime(2024, 1, 10),
     datetime(2024, 1, 15),
