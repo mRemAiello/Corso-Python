@@ -7,6 +7,7 @@ try:
 
 except ValueError:
 
+    print("Data non valida, utilizzo quella corrente")
     data = datetime.datetime.now()
 
 #
