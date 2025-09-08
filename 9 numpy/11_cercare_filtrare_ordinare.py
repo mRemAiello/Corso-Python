@@ -15,7 +15,7 @@ print()
 
 # Ordino
 arr = np.array([[1, 2, 3], [5, 4, 6], [4, 4, 7]])
-arrSort = np.sort(arr)
+arrSort = np.sort(arr, axis = None)
 print(arrSort)
 print()
 

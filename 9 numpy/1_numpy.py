@@ -35,8 +35,13 @@ array1D = np.array([1, 2, 3])
 # 4 5 6
 array2D = np.array([[1, 2, 3], [4, 5, 6]])
 
+print("Scalare")
 print(array0D)
+print()
+print("Array 1-dimensione (vettore)")
 print(array1D)
+print()
+print("Array 2 dimensioni (matrice)")
 print(array2D)
 print()
 
@@ -46,7 +51,7 @@ print(arrayXD)
 print(arrayXD.ndim)
 print()
 
-# Range di array
+# Range di elementi in un array
 arrayRange = np.arange(1, 23, 3)
 print(arrayRange)
 print()

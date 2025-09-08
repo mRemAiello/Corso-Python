@@ -8,6 +8,9 @@ array2D = np.array([[1, 2, 3],
                     [4, 5, 6]])
 
 # Dimensione 3
+#  [ 1 2       [ 5 6
+#   3 4 ]       7 8 ]
+# elemento => [ [1 2] [3 4] ], [ [5 6] [7 8] ]
 array3D = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 
 # Iterazione

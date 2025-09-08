@@ -17,8 +17,9 @@ print()
 
 # Scelta
 arr = np.array([1, 2, 3, 4, 5, 6])
+print("Estrazione numeri casuali da un np-array")
 print(random.choice(arr))
-print(random.choice(arr, size=3))
+print(random.choice(arr, size=5, replace=False))
 print()
 
 

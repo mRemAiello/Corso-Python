@@ -24,12 +24,13 @@ print("int64:", arr_int64, "| itemsize:", arr_int64.itemsize, "byte")
 print("\n=== FLOAT ===")
 
 # Float 32-bit
-arr_float32 = np.array([1.5, 2.5, 3.5], dtype='float32')
+arr_float32 = np.array([1.5, 2.5, 3.5, 4, 5], dtype='float32')
 print("float32:", arr_float32, "| itemsize:", arr_float32.itemsize, "byte")
 
 # Float 64-bit (default in NumPy)
-arr_float64 = np.array([1.5, 2.5, 3.5], dtype='float64')
+arr_float64 = np.array([1.5, 2.5, 3.5, 4, 5], dtype='float64')
 print("float64:", arr_float64, "| itemsize:", arr_float64.itemsize, "byte")
+print("Consumo complessivo", arr_float64.nbytes)
 
 
 
