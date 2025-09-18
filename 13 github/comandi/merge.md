@@ -21,5 +21,5 @@ git add <file-risolto>
 ## Completare il merge
 Finalizza il merge con un commit.
 ```bash
-git commit
+git commit -m "<messaggio>"
 ```
