@@ -42,8 +42,8 @@
 # 2. Crittografia Asimmetrica
 
 # Esempio:
-# stringa -> chiave pubblica -> 1xmdjkqwowi2weiwe2ko2kio
-# chiave + stringa criptata -> banca -> chiave privata -> stringa
+# stringa (es. "ciao") -> chiave pubblica -> 1xmdjkqwowi2weiwe2ko2kio
+# chiave + stringa criptata -> banca -> chiave privata -> stringa ("ciao")
 
 # Nella crittografia asimmetrica, si utilizzano due chiavi diverse: una chiave pubblica per cifrare i dati
 # e una chiave privata per decifrarli.

@@ -2,7 +2,7 @@ import cv2
 
 # Carica le due immagini
 img1 = cv2.imread('img1.jpg', cv2.IMREAD_GRAYSCALE)
-img2 = cv2.imread('img2.jpg', cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread('img3.jpg', cv2.IMREAD_GRAYSCALE)
 
 if img1 is None or img2 is None:
     print("Errore nel caricamento delle immagini.")
@@ -25,7 +25,7 @@ matches = bf.match(des1, des2)
 matches = sorted(matches, key=lambda x: x.distance)
 
 # Disegna le prime 50 corrispondenze
-img_matches = cv2.drawMatches(img1, kp1, img2, kp2, matches[:50], None, flags=2)
+img_matches = cv2.drawMatches(img1, kp1, img2, kp2, matches[:25], None, flags=2)
 
 # Mostra il risultato
 cv2.namedWindow("Matching SIFT", cv2.WINDOW_NORMAL)  # consente il resize

@@ -1,8 +1,4 @@
 def calcola_media(lista):
-    if int == type(lista):
-        return "Devi darmi una lista"
-    if len(lista) == 0:
-        return "La lista è vuota"
     media = 0
     for numero in lista:
         media = media + numero

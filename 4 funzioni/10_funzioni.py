@@ -1,4 +1,7 @@
 # Devo fare un piatto di pasta
+import random
+
+
 def faccio_pasta():
     print("Peso la pasta")
     print("Aspetto che l'acqua bolle")

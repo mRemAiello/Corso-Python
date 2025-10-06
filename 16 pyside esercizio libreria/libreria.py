@@ -1,5 +1,6 @@
 import libro as lb
 
+
 class Libreria:
     __lista_libri = {}
     __percorso_file = ""
@@ -7,41 +8,41 @@ class Libreria:
     def __init__(self):
         self.carica_da_file()
 
-    def aggiungi_libro(self, libro : lb.Libro):
-        self.__lista_libri [libro.isbn] = libro
+    def aggiungi_libro(self, libro: lb.Libro):
+        self.__lista_libri[libro.isbn] = libro
         self.salva_su_file()
 
-    def trova_libro(self, isbn : str):
+    def trova_libro(self, isbn: str):
         for libro in self.__lista_libri.values():
-            if isbn == libro.isbn:
+            if libro.isbn == isbn:
                 return libro
         return None
 
-    def trova_libro_autore(self, autore : str):
+    def trova_libro_autore(self, autore: str):
         risult_autore = []
         for libro in self.__lista_libri.values():
             if autore.lower() in libro.autore.lower():
                 risult_autore.append(libro)
         return risult_autore
 
-    def trova_libro_titolo(self, titolo : str):
+    def trova_libro_titolo(self, titolo: str):
         risult_titolo = []
         for libro in self.__lista_libri.values():
             if titolo.lower() in libro.titolo.lower():
                 risult_titolo.append(libro)
         return risult_titolo
 
-    def rimuovi_libro(self, isbn : str):
+    def rimuovi_libro(self, isbn: str):
         libro = self.trova_libro(isbn)
-        if not libro is None:
-            del self.__lista_libri [isbn]
+        if libro is not None:
+            del self.__lista_libri[isbn]
         else:
             print(f"Non esiste")
         self.salva_su_file()
 
     def salva_su_file(self):
         try:
-            file = open(self.__percorso_file, "w", encoding="utf-8")
+            file = open(self.__percorso_file, "w", encoding = "utf-8")
             for libro in self.__lista_libri.values():
                 file.write(f"{libro.isbn}, {libro.titolo}, {libro.autore}, {libro.anno}\n")
             file.close()
@@ -53,13 +54,13 @@ class Libreria:
     def carica_da_file(self):
         try:
             self.__lista_libri = {}
-            file = open(self.__percorso_file, "r", encoding="utf-8")
+            file = open(self.__percorso_file, "r", encoding = "utf-8")
             for riga in file:
                 if len(riga) <= 10:
                     continue
                 element = riga.split(",")
                 libro = lb.Libro(element[1], element[2], element[3], element[0])
-                self.__lista_libri [libro.isbn] = libro
+                self.__lista_libri[libro.isbn] = libro
             file.close()
         except FileNotFoundError:
             print(f"Il file non esiste")

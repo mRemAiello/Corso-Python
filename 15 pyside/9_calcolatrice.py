@@ -21,6 +21,9 @@ class CustomDialog(QDialog):
         self.text_input = QLineEdit()
         layout.addWidget(self.text_input)
 
+        self.label2 = QLabel('Inserisci il secondo numero:')
+        layout.addWidget(self.label2)
+
         self.text_input_2 = QLineEdit()
         layout.addWidget(self.text_input_2)
 
@@ -38,10 +41,14 @@ class CustomDialog(QDialog):
 
     def mostra_risultato(self):
         print("Lancio funzione")
-        numero_1 = int(self.text_input.text())
-        numero_2 = int(self.text_input_2.text())
-        self.risultatoLabel.setText(str(numero_1 + numero_2))
-        return
+        try:
+            numero_1 = int(self.text_input.text())
+            numero_2 = int(self.text_input_2.text())
+            self.risultatoLabel.setText(str(numero_1 + numero_2))
+        except Exception:
+            self.risultatoLabel.setText("Errore")
+        finally:
+            return
 
 
 #

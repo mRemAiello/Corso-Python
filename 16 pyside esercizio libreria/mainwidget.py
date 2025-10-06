@@ -6,6 +6,7 @@ import cerca
 import modifica
 import os
 
+
 class MainWidget(QWidget):
     main_layout = None
     list_widget = None

@@ -3,6 +3,7 @@ from PySide6.QtWidgets import QApplication, QMainWindow
 import mainwidget as mw
 import inputdialog as inpd
 
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -34,6 +35,7 @@ class MainWindow(QMainWindow):
 
     def exit_file(self):
         self.close()
+
 
 app = QApplication([])
 window = MainWindow()

@@ -1,6 +1,7 @@
 from PySide6.QtWidgets import QWidget, QPushButton, QVBoxLayout, QLabel, QLineEdit
 import inputdialog as inpd
 
+
 class Rimuovi_Libro(QWidget):
     main_layout = None
     label1 = None

@@ -2,6 +2,7 @@ from PySide6.QtWidgets import QWidget, QPushButton, QVBoxLayout, QLabel, QLineEd
 import libro
 import inputdialog as inpd
 
+
 class Aggiungi_Libro(QWidget):
     main_layout = None
     label1 = None

@@ -27,7 +27,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # Addestra il modello
-model.fit(train_images, train_labels, epochs=25, batch_size=64, validation_split=0.1)
+model.fit(train_images, train_labels, epochs=50, batch_size=64, validation_split=0.1)
 
 # Valutazione finale
 loss, accuracy = model.evaluate(test_images, test_labels)

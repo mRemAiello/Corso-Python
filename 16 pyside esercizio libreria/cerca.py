@@ -1,5 +1,6 @@
 from PySide6.QtWidgets import QWidget, QPushButton, QVBoxLayout, QHBoxLayout, QLabel, QListWidget, QLineEdit
 
+
 class Cerca(QWidget):
     main_layout = None
     label1 = None

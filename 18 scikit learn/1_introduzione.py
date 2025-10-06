@@ -35,14 +35,15 @@
 
 # fit_transform() è un metodo combinato che:
 #
-#     “Fitta” (fit) il trasformatore sul dataset, cioè calcola i parametri statistici necessari (es. media e deviazione standard).
+#     “Fitta” (fit) il trasformatore sul dataset, cioè calcola i parametri statistici necessari
+#     (es. media e deviazione standard).
 #
 #     “Trasforma” (transform) i dati usando quei parametri.
 
 
-#  Cos'è StandardScaler
-#
-# StandardScaler è una classe di Scikit-Learn che standardizza le feature in modo che abbiano:
+#   Cos'è StandardScaler
+
+#   StandardScaler è una classe di Scikit-Learn che standardizza le feature in modo che abbiano:
 #
 #     media = 0
 #     deviazione standard = 1
