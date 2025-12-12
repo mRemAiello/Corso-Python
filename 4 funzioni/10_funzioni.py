@@ -47,7 +47,8 @@ def faccio_pasta_v3(tipo_pasta="Spaghetti", sugo=False):
     return True
 
 
-x = faccio_pasta_v3()
+# faccio_pasta_v3() -> tipo_pasta="Spaghetti", sugo=False -> return "Inserisci un tipo di pasta" -> x = "Inserisci un tipo di pasta"
+x = faccio_pasta_v3("")
 y = faccio_pasta_v3("Rigatoni")
 z = faccio_pasta_v3("Cannelloni", True)
 

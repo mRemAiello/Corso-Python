@@ -30,6 +30,8 @@ print(type(persona1))
 
 #
 print(persona1)
+print(persona2)
+print(persona3)
 
 #
 print(persona1.codice_fiscale)

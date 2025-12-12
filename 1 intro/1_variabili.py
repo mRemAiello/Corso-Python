@@ -19,8 +19,11 @@ x = False
 x = 10
 y = 3
 z = x + y
+print(z)
 z = x - y
+print(z)
 z = x * y
+print(z)
 # risultato divisione
 z = x / y
 print(z)

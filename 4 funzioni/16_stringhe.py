@@ -46,6 +46,10 @@ print(stringa.replace("\n", ""))
 
 # Inserire split
 x = stringa.split(";")
+# x[0] = "   mirko"
+# x[1] = "    aiello"
+# x[2] = "   20"
+# x[3] = " +39 340 "
 print(x)
 
 i = 0
@@ -54,5 +58,11 @@ while i < len(x):
     x[i] = x[i].strip()
     x[i] = x[i].capitalize()
     i += 1
+
+# Dopo il while x diventa
+# x[0] = "Mirko"
+# x[1] = "Aiello"
+# x[2] = "20"
+# x[3] = "340"
 
 print(x)

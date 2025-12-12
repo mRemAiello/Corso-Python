@@ -14,6 +14,7 @@ print(str2 + str3)
 
 # Usa format
 # "Ciao io sono " + nome + " e ho " + str(eta) + " anni, peso" + peso + "
+# Esempio dentro __str__ -> "Nome: {}, Autore: {}, Prezzo: {}"
 prova = "Ciao io sono {} e ho {} anni, peso {}, sono alto {}"
 print(prova)
 print(prova.format("Samuele", 20, 80, 180))
