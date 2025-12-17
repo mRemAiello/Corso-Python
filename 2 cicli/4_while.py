@@ -14,4 +14,8 @@ while i < len(eta_persone):
     i = i + 1
 
 #
+print("i", i)
+print()
+
+#
 print("media", media / len(eta_persone))

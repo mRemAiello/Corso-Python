@@ -1,5 +1,9 @@
 # Commento qualcosa
 
+# TODO: Devo fare questa cosa
+
+# FIXME: Devo sistemare
+
 """
 Commento
 Commento

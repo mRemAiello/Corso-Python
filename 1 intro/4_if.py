@@ -10,6 +10,7 @@ print("Panini:", panini)
 if panini > 10:
     print("Mangia il pane")
 
+# else if → elif
 elif panini == 0:
     print("Compra il pane")
 
@@ -48,8 +49,8 @@ if not panini > 10:
 
 # Esercizi
 
-# Scrivere un programma che chiede all'utente di inserire un numero e stampa "Il numero è positivo" se il numero è maggiore di zero,
-# altrimenti stampa "Il numero è negativo".
+# Scrivere un programma che chiede all'utente di inserire un numero e stampa "Il numero è positivo"
+# se il numero è maggiore di zero, altrimenti stampa "Il numero è negativo".
 # Eseguire l'esercizio anche generando un numero random. Trasformare il numero random in int.
 
 
@@ -95,8 +96,10 @@ if not panini > 10:
 # ognuna estratta mediante il seguente procedimento: 'a' = 1, 'e' = 2, 'i' = 3...
 
 
-# Controlla la password sottostante e se risulta con più di 11 caratteri allora stampa a video 'Password ok' altrimenti 'Password troppo corta'.
+# Controlla la password sottostante e se risulta con più di 11 caratteri allora stampa a video
+# 'Password ok' altrimenti 'Password troppo corta'.
 # password = 'alfabravocharly'
+# Per controllare la lunghezza di una stringa basta fare lunghezza = len(stringa)
 
 
 # Verifica se il valore assegnato alla variabile sottostante è un intero, se lo è stampa la stringa 'Si' altrimenti 'No'.

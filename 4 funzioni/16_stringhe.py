@@ -15,7 +15,6 @@ Mirko"""
 print(z)
 
 z = "Ciao\nIo\nMi\nChiamo\nMirko"
-
 print(z)
 
 # Le stringhe sono liste di caratteri, posso estrarli singolarmente
