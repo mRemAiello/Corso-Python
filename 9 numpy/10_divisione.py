@@ -18,7 +18,8 @@ print()
 # [3 4]
 # [5 6]
 arr = np.array([[1, 2], [3, 4], [5, 6]])
-arr2, arr3 = np.split(arr, 2, axis = 1)
+arr2, arr3 = np.array_split(arr, 2, axis = 0)
 print(arr2)
+print()
 print(arr3)
 print()

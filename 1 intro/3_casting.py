@@ -6,6 +6,10 @@ x = "5"
 # Inverso diventa 5.1 => "5.1"
 y = 5.1
 
+# Esempio
+print(int(x) + y)
+print(type(x))
+
 # Qui sommo y (int) e x (str) che sono due variabili di tipo differente
 # Grazie al casting "trasformo" momentaneamente la y in una stringa
 print(x + str(y))

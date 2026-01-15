@@ -25,7 +25,7 @@ print()
 
 # Scelta con probabilità
 arr = np.array([1, 2, 3, 4])
-prob = np.array([0.1, 0.4, 0.4, 0.1])
+prob = np.array([0.5, 0.3, 0.19, 0.01])
 print(random.choice(arr, p=prob, size=20))
 print()
 

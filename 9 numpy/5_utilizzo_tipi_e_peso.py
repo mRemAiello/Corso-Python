@@ -52,3 +52,4 @@ print("Consumo complessivo: ", arr_str.nbytes, "bytes")
 # Stringa con lunghezza massima di 4 caratteri
 arr_str4 = np.array(['ciao', 'test', 'dato'], dtype='S4')
 print("S4:", arr_str4, "| itemsize:", arr_str4.itemsize, "byte")
+print("Consumo complessivo: ", arr_str4.nbytes, "bytes")

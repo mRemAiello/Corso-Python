@@ -13,7 +13,7 @@ class Persona:
         self.cognome = cognome
         self.eta = eta
         self.codice_fiscale = nome + cognome + str(eta)
-        self.anno_di_nascita = 2025 - self.eta
+        self.anno_di_nascita = 2026 - self.eta
 
     # Metodo della classe
     def saluta(self, altro_nome):
