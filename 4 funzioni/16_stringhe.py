@@ -17,6 +17,10 @@ print(z)
 z = "Ciao\nIo\nMi\nChiamo\nMirko"
 print(z)
 
+# a = [1, 2, 3]
+# stringa = "Ciao"
+# stringa = ["C", "i", "a", "o"]
+
 # Le stringhe sono liste di caratteri, posso estrarli singolarmente
 print(z[0])
 

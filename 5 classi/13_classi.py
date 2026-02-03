@@ -16,8 +16,8 @@ class Persona:
         self.anno_di_nascita = 2026 - self.eta
 
     # Metodo della classe
-    def saluta(self, altro_nome):
-        print(self.nome + " sta salutando " + altro_nome)
+    def saluta(self, persona):
+        print(self.nome + " sta salutando " + persona.nome)
 
 
 # Persona(...) => __init__(...)
@@ -46,6 +46,6 @@ print(persona1.anno_di_nascita)
 print(persona2.anno_di_nascita)
 
 
-persona1.saluta(persona2.nome)
-persona2.saluta(persona1.nome)
-persona3.saluta(persona3.nome)
+persona1.saluta(persona2)
+persona2.saluta(persona1)
+persona3.saluta(persona3)

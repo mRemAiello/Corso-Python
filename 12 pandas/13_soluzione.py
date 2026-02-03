@@ -33,6 +33,8 @@ riepilogo = vendite.groupby('prodotto').agg({
     'ricavo': 'mean'
 }).reset_index()
 
+print(riepilogo)
+
 # --- Gestione dei valori nulli ---
 clienti = pd.DataFrame({
     'nome': ['Mario', 'Luca', 'Anna'],

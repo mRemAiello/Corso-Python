@@ -52,17 +52,17 @@ print()
 # print(persona)
 
 # Loop per ciclare le chiavi del dizionario
-for key in persona:
-    print(key)
+for chiave in persona:
+    print(chiave)
 print()
 
-for key in persona.keys():
-    print(key)
+for chiave in persona.keys():
+    print(chiave)
 print()
 
 # Itero i valori
-for key in persona:
-    print(key, ":", persona[key])
+for chiave in persona:
+    print(chiave, ":", persona[chiave])
 print()
 
 # Secondo modo

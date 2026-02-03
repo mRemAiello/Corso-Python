@@ -17,4 +17,5 @@ for eta in eta_persone:
         print()
 
 #
+print("totale numeri", conta)
 print("media", media / conta)

@@ -1,6 +1,4 @@
 # Devo fare un piatto di pasta
-import random
-
 
 def faccio_pasta():
     print("Peso la pasta")
@@ -52,4 +50,6 @@ x = faccio_pasta_v3("")
 y = faccio_pasta_v3("Rigatoni")
 z = faccio_pasta_v3("Cannelloni", True)
 
-print(x, y, z)
+print("Risultato 1", x)
+print("Risultato 2", y)
+print("Risultato 3", z)

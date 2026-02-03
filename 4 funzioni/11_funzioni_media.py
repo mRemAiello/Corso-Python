@@ -12,7 +12,7 @@ risultato = calcola_media(pippo)
 print(risultato)
 
 
-numeri = [5, 6, 7]
+numeri = (5, 6, 7)
 risultato = calcola_media(numeri)
 print(risultato)
 

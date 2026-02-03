@@ -5,7 +5,7 @@ class Prodotto:
     prezzo_scontato = 0
 
     def __str__(self):
-        return f"Nome: {self.nome.strip()} Prezzo: {self.prezzo} Prezzo Scontato: {self.prezzo_scontato} Scorta: {self.scorta}"
+        return f"Nome: {self.nome.strip()}, Prezzo: {self.prezzo}, Prezzo Scontato: {self.prezzo_scontato}, Scorta: {self.scorta}"
 
 
 class GestoreMagazzino:
@@ -18,16 +18,16 @@ class GestoreMagazzino:
     }
 
     def __str__(self):
-        stringa = "Nome: " + self.nome + "\n"
+        stringa = f"Nome: {self.nome}\n"
         i = 0
         for elemento in self.dict.values():
-            stringa += "ID: " + str(i) + " " + elemento.__str__() + "\n"
+            stringa += f"ID: {str(i)}, {elemento.__str__()}\n"
             i += 1
         return stringa
 
 
 p1 = Prodotto()
-print(p1)
+# print(p1)
 
 g1 = GestoreMagazzino()
 print(g1)

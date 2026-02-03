@@ -75,21 +75,23 @@ class Dirigente(Dipendente):
 
 #
 persona = Persona('Luca', 'Rossi', 20)
-persona.saluta()
-print(persona)
-print()
-
-#
 studente = Studente('Antonio', 'Rossi', 25, "01")
+dipendente = Dipendente("Luca", "Verdi", 30, "m0111")
+dirigente = Dirigente("Antonio", "Rossi", 30, "m0111", "Senior Sales Manager")
+
+# Saluta e vai a lezione
+persona.saluta()
 studente.saluta()
-studente.vai_a_lezione()
-print(studente)
+dipendente.saluta()
+dirigente.saluta()
+print()
 print()
 
-#
-dipendente = Dipendente("Luca", "Verdi", 30, "m0111")
-dipendente.saluta()
+# Print
+print(persona)
+print(studente)
 print(dipendente)
+print(dirigente)
 
 
 # Creare una classe Scatola con gli opportuni attributi e metodi, per ogni scatola bisognerà memorizzare la dimensione dei lati e il suo peso,
