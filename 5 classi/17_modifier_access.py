@@ -65,7 +65,7 @@ print(studente.get_soldi())
 print(studente.get_id())
 
 # Public
-studente.nome = "Mirko"
+studente.nome = "Luca"
 print(studente.nome)
 
 # Protected
