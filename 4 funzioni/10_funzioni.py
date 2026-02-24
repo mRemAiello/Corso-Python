@@ -15,18 +15,19 @@ faccio_pasta()
 
 
 # Pasta e sugo
-def faccio_pasta_v2(sugo):
+def faccio_pasta_v2(pippo):
     print("Peso la pasta")
     print("Aspetto che l'acqua bolle")
     print("Butto la pasta")
 
-    if sugo:
+    if pippo:
         print("Metto il sugo")
 
     print()
 
 
-faccio_pasta_v2(True)
+sugo = True
+faccio_pasta_v2(sugo)
 faccio_pasta_v2(False)
 faccio_pasta_v2(True)
 

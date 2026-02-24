@@ -65,6 +65,5 @@
 # iniziale. Indicare anche il numero di tentativi.
 
 
-
 # Altri esercizi difficoltà alta:
 # https://ticoprof.wordpress.com/esercizi-cplusplus/esercizi-sul-while-in-c-cplusplus-con-soluzione-programmazione-con-literazione-indefinita/

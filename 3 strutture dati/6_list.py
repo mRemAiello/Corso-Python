@@ -30,6 +30,8 @@ print(prima_lista[1:3])
 # Modifica elementi interni
 prima_lista[0] = "Milano2"
 print(prima_lista)
+
+# [Milano3, Roma2, Catania, Roma, Udine, Venezia]
 prima_lista[0:2] = ["Milano3", "Roma2", "Catania", "Roma"]
 print(prima_lista)
 

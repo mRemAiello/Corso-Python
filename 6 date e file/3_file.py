@@ -49,4 +49,5 @@ file.close()
 
 # Controllo se il file esiste
 import os
-print(os.path.exists("testo.txt"))
+if os.path.exists("testo.txt"):
+    print("Il file esiste")
