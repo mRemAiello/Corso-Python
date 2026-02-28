@@ -28,7 +28,8 @@
 # ed il voto ottenuto. Calcola inoltre la media delle materie.
 
 # Crea un dizionario vuoto chiamato "rubrica" per memorizzare i contatti.
-# Fornisci all'utente un menu con le opzioni di aggiungere un nuovo contatto, visualizzare i dettagli di un contatto o eliminare un contatto.
+# Fornisci all'utente un menu con le opzioni di aggiungere un nuovo contatto
+# visualizzare i dettagli di un contatto o eliminare un contatto.
 # Implementa la logica per ciascuna opzione del menu.
 # Assicurati di gestire i casi in cui l'utente cerca di visualizzare o eliminare un contatto che non esiste.
 
@@ -38,4 +39,4 @@
 # Unisci 2 dizionari qualunque in un terzo.
 # Poi cerca di generalizzare l'algoritmo e unisci N dizionari dentro un dizionario.
 
-# Dati2 dizionari, uniscili in un terzo invertendo le chiave con i valori e viceversa.
+# Dati 2 dizionari, uniscili in un terzo invertendo le chiave con i valori e viceversa.

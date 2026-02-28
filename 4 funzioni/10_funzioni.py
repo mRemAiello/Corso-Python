@@ -27,6 +27,7 @@ def faccio_pasta_v2(pippo):
 
 
 sugo = True
+# sugo True -> faccio_pasta_v2(True) -> pippo = True
 faccio_pasta_v2(sugo)
 faccio_pasta_v2(False)
 faccio_pasta_v2(True)
@@ -46,11 +47,16 @@ def faccio_pasta_v3(tipo_pasta="Spaghetti", sugo=False):
     return True
 
 
-# faccio_pasta_v3() -> tipo_pasta="Spaghetti", sugo=False -> return "Inserisci un tipo di pasta" -> x = "Inserisci un tipo di pasta"
-x = faccio_pasta_v3("")
-y = faccio_pasta_v3("Rigatoni")
-z = faccio_pasta_v3("Cannelloni", True)
+# Lancio con tipo_pasta "Spaghetti", sugo False
+x = faccio_pasta_v3()
+# Lancio con tipo_pasta "", sugo False
+y = faccio_pasta_v3("")
+# Lancio con tipo_pasta "Rigatoni", sugo False
+z = faccio_pasta_v3("Rigatoni")
+# Lancio con tipo_pasta "Cannelloni", sugo True
+t = faccio_pasta_v3("Cannelloni", True)
 
 print("Risultato 1", x)
 print("Risultato 2", y)
 print("Risultato 3", z)
+print("Risultato 4", t)
