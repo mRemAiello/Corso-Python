@@ -17,7 +17,6 @@ class Impiegato:
         return f"ID: {self.id}, Nome: {self.nome}, Età: {self.eta}"
 
 
-
 impiegato1 = Impiegato('Marco', 20, 1101)
 # print(impiegato1) -> impiegato.__str__() -> print
 print(impiegato1)

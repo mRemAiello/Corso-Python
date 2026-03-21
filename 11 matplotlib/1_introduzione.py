@@ -27,10 +27,11 @@ plt.show()"""
 # plt.plot(x, y)
 # plt.plot(x, y1)
 plt.plot(x, y, label="Italiani", color="red", linewidth=2, linestyle="-", marker="o")
-plt.plot(x, y1, label="Inglesi", color="black", linewidth=4, linestyle="dotted")
+plt.plot(x, y1, label="Inglesi", color="black", linewidth=4, linestyle="dotted", marker="o")
 plt.title("Grafico età / valori")
 plt.xlabel("Età")
 plt.ylabel("Valori")
+plt.grid()
 plt.legend(["Italiani", "Inglesi"])
 """
 

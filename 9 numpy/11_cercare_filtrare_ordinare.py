@@ -6,7 +6,6 @@ arr = np.array([1, 2, 3, 4, 5, 6, 4, 4, 7, 8])
 arrInd = np.where(arr == 4)
 arrCount = arrInd[0].tolist()
 print(arrInd, len(arrCount))
-print()
 
 # Esempio con pari
 arrInd = np.where(arr % 2 == 0)
@@ -23,6 +22,7 @@ print()
 arr = np.array([1, 2, 3, 4])
 filtro = [False, False, False, True]
 arrayFilt = arr[filtro]
+print("Risultato array filtrato")
 print(arrayFilt)
 print()
 

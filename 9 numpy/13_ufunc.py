@@ -23,8 +23,8 @@ u_func_five = np.frompyfunc(add_five, 1, 2)
 arr = np.array([1, 2, 3, 4, 5, 6, 7])
 arr2 = np.array([7, 8, 9, 10])
 # arr -> u_func_five -> [ [1, 3] [7, 8] ... ]
-print(u_func_five(arr))
-print(u_func_five(arr2))
+print(np.array(u_func_five(arr)))
+print(np.array(u_func_five(arr2)))
 print()
 
 # Carrellata di ufunc

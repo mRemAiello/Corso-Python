@@ -23,7 +23,7 @@ colors = [1, 4, 6, 6, 8, 8, 8, 10]
 sizes = [100, 150, 200, 250, 300, 600, 700, 1000]
 plt.scatter(x, y, c=colors, cmap="Greens", s=sizes, marker="o", alpha=1)
 cbar = plt.colorbar()
-cbar.set_label("Intensità")
+cbar.set_label("Tiri in porta")
 
 #
 plt.title("Nome del grafico")

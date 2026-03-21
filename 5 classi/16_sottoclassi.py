@@ -111,8 +111,8 @@ print(dirigente)
 # La prima rappresenta i prodotti freschi e deve contenere un campo per indicare la temperatura di conservazione ideale,
 # oltre a un metodo per controllare se il prodotto è ancora fresco (ovvero se la data di scadenza non è ancora passata e la temperatura di conservazione è corretta).
 # La seconda rappresenta i prodotti non freschi e non ha bisogno di campi o metodi aggiuntivi.
-# Infine, si deve creare una classe Main che istanzia alcuni oggetti di tipo FreshProduct e NonFreshProduct e li aggiunge ad un array.
-# In un secondo momento, la classe Main deve scorrere l'array e stampare il nome e il prezzo di ogni prodotto, indicando anche se il prodotto
+# Istanziare poi alcuni oggetti di tipo FreshProduct e NonFreshProduct e aggiungerli a una lista.
+# Scorrere poi la lista con un for e stampare il nome e il prezzo di ogni prodotto, indicando anche se il prodotto
 # è scaduto (nel caso di un NonFreshProduct il controllo è sempre negativo).
 
 
@@ -128,7 +128,7 @@ print(dirigente)
 # un metodo per calcolare il prezzo scontato del veicolo (scontato del 10% se l'anno di produzione è precedente al 2010, del 5% altrimenti).
 # Inoltre, si devono definire quattro sottoclassi di Vehicle: Car, Motorcycle, Van e Bicycle, ognuna con i campi specifici e
 # un metodo per calcolare il prezzo scontato del veicolo che tenga conto anche delle caratteristiche specifiche del tipo di veicolo.
-# Infine, si deve creare una classe Main che istanzia alcuni oggetti di tipo Vehicle e li aggiunge ad un array.
+# Istanziare poi alcuni oggetti di tipo Vehicle e li aggiunge ad un array.
 # In un secondo momento, la classe Main deve scorrere l'array e stampare le caratteristiche di ogni veicolo,
 # insieme al prezzo di listino e al prezzo scontato.
 

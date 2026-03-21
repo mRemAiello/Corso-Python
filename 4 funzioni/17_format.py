@@ -27,8 +27,11 @@ altezza = int(input("..."))
 eta = int(input("..."))
 peso = int(input("..."))
 
+# la variabile prova rimane con lo stesso valore
 prova = "Ciao sono {}, ho {} anni, sono alto {} e peso {} kg"
-print(prova.format(nome, eta, altezza, peso))
+prova2 = prova.format(nome, eta, altezza, peso)
+print(prova)
+print(prova2)
 
 
 # Format con numeri e media, min e massimo

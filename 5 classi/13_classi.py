@@ -28,7 +28,7 @@ persona3 = Persona('Antonio', 'Grigi', 25)
 #
 print(type(persona1))
 
-#
+# print -> persona1 -> persona1.__str()__
 print(persona1)
 print(persona2)
 print(persona3)

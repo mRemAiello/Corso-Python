@@ -31,3 +31,7 @@ print(f"Uso finale: {Calcolatrice.uso_counter}")
 calcolatrice.uso_counter += 1
 print(f"Uso: {calcolatrice.uso_counter}")
 print(f"Uso finale: {Calcolatrice.uso_counter}")
+
+Calcolatrice.incrementa_uso(2)
+print(f"Uso: {calcolatrice.uso_counter}")
+print(f"Uso finale: {Calcolatrice.uso_counter}")

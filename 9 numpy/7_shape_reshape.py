@@ -12,7 +12,9 @@ print()
 # Reshape, cioè cambio della forma
 # NB: Fattibile solo se il numero di elementi combacia perfettamente
 print("Array reshape")
-print(arr.reshape(2, 3))
+arr = arr.reshape(2, 3)
+print(arr)
+print(arr.shape)
 print()
 
 # NB2: Il reshape è un array view

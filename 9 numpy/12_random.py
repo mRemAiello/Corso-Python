@@ -32,6 +32,7 @@ print()
 
 # Disordinare
 # Shuffle disordina l'array e lo modifica
+arr = [1, 2, 3, 5, 6]
 random.shuffle(arr)
 print(arr)
 print()

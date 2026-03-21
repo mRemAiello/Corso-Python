@@ -25,8 +25,8 @@ print()
 
 
 # Prendo solo colonne, e solo un tot di elementi
-print("Prendo solo gli username, e solo dei primi 2")
-print(df["Username"][0:2])
+print("Prendo solo gli username e gli id, e solo dei primi 2")
+print(df[["Username", "Identifier"]][0:2])
 print()
 
 # Prendo più colonne
