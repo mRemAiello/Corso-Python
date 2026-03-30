@@ -8,14 +8,10 @@ y = 5.1
 
 # Esempio
 print(int(x) + y)
-print(type(x))
 
 # Qui sommo y (int) e x (str) che sono due variabili di tipo differente
 # Grazie al casting "trasformo" momentaneamente la y in una stringa
 print(x + str(y))
-
-# Operazione momentanea
-print(type(y))
 
 z = "5"
 z = float(z) + 10

@@ -8,6 +8,8 @@ y1 = [20, 20, 15, 80]
 plt.bar(x, y, label="Italiani", color="blue")
 plt.bar(x, y1, label="Francesi", color="red")
 
+plt.legend(["Italiani", "Francesi"])
+
 
 # plt.grid()
 plt.show()

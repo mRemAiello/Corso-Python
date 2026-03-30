@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-width = 0.3
+width = 0.2
 
 # valori -> [0 1 2 3]
 indexs = np.arange(4)

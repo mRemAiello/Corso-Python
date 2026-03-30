@@ -10,7 +10,7 @@ plt.style.use("ggplot")
 # 1 riga 2 colonne => (gf1, gf2)
 # 2 righe 2 colonne => ((gf1, gf2), (gf3, gf4))
 # 1 riga 4 colonne => (gf1, gf2, gf3, gf4)
-fig, (gf1, gf2, gf3, gf4) = plt.subplots(nrows=1, ncols=4, sharex=True)
+fig, ((gf1, gf2), (gf3, gf4)) = plt.subplots(nrows=2, ncols=2, sharex=True)
 
 x = [1, 2, 3, 4, 5, 6]
 y = [3, 6, 7, 2, 5, 1]

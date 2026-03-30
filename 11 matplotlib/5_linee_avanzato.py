@@ -14,10 +14,10 @@ plt.plot(x, y)
 # plt.fill_between(x, y, alpha=0.2)
 
 # Imposto una media
-# plt.fill_between(x, y, media, alpha=0.2)
+plt.fill_between(x, y, media, alpha=0.2)
 
 # Con condizione
-# plt.fill_between(x, y, media, where=(y > 150), alpha=0.2, interpolate=True)
+# plt.fill_between(x, y, media, where=(y < 150), alpha=0.2, interpolate=True)
 
 plt.title("Nome del grafico")
 plt.show()

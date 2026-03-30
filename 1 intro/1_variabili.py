@@ -33,14 +33,9 @@ z = x % y
 print(z)
 
 
-# Capire il tipo della variabile
-print(type(z))
-
-
 # Prendo gli input dell'utente
 utente = input("Scrivi qualcosa: ")
 print(utente)
-print(type(utente))
 
 
 # Print complesso con unione di valori

@@ -2,20 +2,18 @@ from numpy import var
 import numpy as np
 import statistics
 
-a = [1, 2, 3, 4, 5]
+data = np.random.randn(100)
 
 # Varianza
-x = var(a)
+x = var(data)
 
 # Dev Standard
-y = statistics.stdev(a)
+y = statistics.stdev(data)
 
 #
 print(x)
 print(y)
 print()
-
-data = np.random.randn(100)
 
 print(data)
 print()
