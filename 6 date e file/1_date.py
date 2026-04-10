@@ -7,7 +7,7 @@ print(data_corrente)
 
 # Data stabilita dal programmatore
 # datetime(year, month, day, hour, minute..)
-# datetime(2025, 9, 11, 20, 30)
+# datetime(2026, 9, 11, 20, 30)
 data_personalizzata = dt.datetime(day=11, month=9, year=2026, hour=20, minute=30)
 print(data_personalizzata)
 
