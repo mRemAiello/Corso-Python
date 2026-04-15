@@ -1,1 +1,0 @@
-Questa repository contiene tutto il materiale del corso base di Python che puoi trovare su Gedemy

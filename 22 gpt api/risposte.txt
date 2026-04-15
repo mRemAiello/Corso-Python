@@ -1,0 +1,37 @@
+MAC Formazione Ë un ente di formazione professionale che offre corsi e programmi educativi in diverse aree tematiche, spesso focalizzati sulle competenze professionali e il miglioramento delle abilit‡ lavorative. La missione di enti come MAC Formazione Ë quella di fornire agli studenti le conoscenze e le competenze necessarie per affrontare le sfide del mercato del lavoro e migliorare le loro opportunit‡ professionali.
+
+I corsi possono coprire una vasta gamma di argomenti, tra cui management, marketing, comunicazione, tecnologie informatiche, lingue straniere e altro ancora. Inoltre, spesso vengono offerti corsi di aggiornamento per professionisti gi‡ inseriti nel mondo del lavoro.
+
+Se desideri informazioni specifiche su corsi, modalit‡ di iscrizione, sedi o altre domande relative a MAC Formazione, ti consiglio di visitare il loro sito ufficiale o contattarli direttamente.```json
+{
+  "nome": "NumPy",
+  "descrizione": "NumPy √® una libreria fondamentale per la programmazione scientifica in Python. Fornisce supporto per array multidimensionali e funzioni matematiche ad alte prestazioni per operare su questi array.",
+  "caratteristiche": {
+    "array_multidimensionali": "Supporta array n-dimensionali chiamati 'ndarray'.",
+    "funzioni_matematiche": "Include un grande numero di funzioni matematiche avanzate per operazioni su array.",
+    "broadcasting": "Permette operazioni su array di forme diverse.",
+    "integrazione": "Facilita l'integrazione con altre librerie scientifiche come SciPy, Matplotlib e Pandas.",
+    "performance": "Ottimizzato per la velocit√† grazie a implementazioni in C e Fortran."
+  },
+  "utilizzi": [
+    "Analisi dei dati",
+    "Elaborazione di immagini",
+    "Calcolo numerico",
+    "Machine Learning",
+    "Simulazioni scientifiche"
+  ],
+  "installazione": {
+    "comando_pip": "pip install numpy",
+    "documentazione": "https://numpy.org/doc/"
+  }
+}
+```Ciao! Ecco un esempio di risposta in formato JSON:
+
+```json
+{
+  "greeting": "Ciao",
+  "message": "Come posso aiutarti oggi?"
+}
+```
+
+Se hai bisogno di ulteriori informazioni o un altro formato, fammelo sapere!

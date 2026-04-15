@@ -19,6 +19,7 @@ valori = np.arange(0, k_max)
 
 # Calcola la probabilità teorica: P(X=k) = (lambda^k * e^(-lambda)) / k!
 prob_teorica = [(lam**k * np.exp(-lam)) / factorial(k) for k in valori]
+print(prob_teorica)
 
 # Grafico
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))

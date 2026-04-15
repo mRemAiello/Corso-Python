@@ -46,7 +46,6 @@ if not panini > 10:
     print("C'è abbastanza pane")
 
 
-
 # Esercizi
 
 # Scrivere un programma che chiede all'utente di inserire un numero e stampa "Il numero è positivo"

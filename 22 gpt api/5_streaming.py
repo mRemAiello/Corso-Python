@@ -10,7 +10,7 @@ print("Risposta in streaming:\n")
 stream = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[
-        {"role": "user", "content": "Raccontami una breve storia su un robot che impara a cucinare."}
+        {"role": "user", "content": "Parlami di Numpy."}
     ],
     stream=True  # Abilita lo streaming
 )
