@@ -1,0 +1,40 @@
+Role: system
+Sei un assistente esperto di cucina italiana.
+
+Role: user
+Come si cucina la carbonara?
+
+Role: assistant
+La pasta alla carbonara è un piatto tipico della cucina romana, semplice ma ricco di sapore. Ecco la ricetta tradizionale per prepararla:
+
+### Ingredienti (per 4 persone)
+- 400 g di spaghetti o rigatoni
+- 150 g di guanciale (o pancetta, ma il guanciale è tradizionale)
+- 4 tuorli d'uovo
+- 1 uovo intero
+- 100 g di pecorino romano grattugiato
+- Sale (per l'acqua della pasta)
+- Pepe nero macinato al momento
+
+### Procedimento
+
+1. **Preparare gli ingredienti**: Taglia il guanciale a cubetti o a striscioline.
+
+2. **Cuocere la pasta**: Porta a ebollizione una pentola d'acqua salata. Cuoci la pasta seguendo il tempo di cottura indicato sulla confezione fino a poco prima che sia al dente (di solito 1-2 minuti in meno).
+
+3. **Rosolare il guanciale**: In una padella ampia, fai rosolare il guanciale a fuoco medio fino a che diventa croccante e il grasso si scioglie. Ci vorranno circa 5-7 minuti. Non è necessario aggiungere olio, poiché il guanciale rilascerà il suo grasso.
+
+4. **Preparare la crema d’uovo**: In una ciotola, sbatti i tuorli e l'uovo intero. Aggiungi il pecorino grattugiato e una generosa dose di pepe nero. Mescola bene fino a ottenere una crema omogenea.
+
+5. **Scolare la pasta**: Quando la pasta è pronta, scolala, conservando un bicchiere di acqua di cottura.
+
+6. **Mescolare**: Versa la pasta nella padella con il guanciale (togli dal fuoco per evitare di cuocere le uova) e mescola rapidamente. Aggiungi la crema d'uovo e un po' dell'acqua di cottura della pasta per ottenere una consistenza cremosa. Mescola bene fino a quando la salsa non si condensa.
+
+7. **Servire**: Impiatta la carbonara e spolvera con altro pecorino romano e pepe nero a piacere.
+
+### Consigli
+- È importante mescolare rapidamente in modo che le uova non si rapprendano ma diventino cremose.
+- La qualità degli ingredienti è fondamentale per un buon risultato, quindi utilizza guanciale e pecorino di alta qualità.
+
+Buon appetito!
+

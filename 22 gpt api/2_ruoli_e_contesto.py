@@ -7,6 +7,9 @@ client = OpenAI()
 # - "user": messaggi dell'utente
 # - "assistant": risposte precedenti dell'assistente (per contesto)
 
+# messages = [....]
+# singolo elemento -> { "role": "system", "content": "contenuto" }
+
 risposta = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[

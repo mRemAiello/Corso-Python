@@ -7,11 +7,12 @@ client = OpenAI()
 risposta = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[
-        {"role": "user", "content": "Scrivi 3 idee creative per un'app mobile."}
+        {"role": "system", "content": "Sei esperto in matematica."},
+        {"role": "user", "content": "Parlami della congettura Yau-Tian-Donaldson"}
     ],
 
     # temperature: controlla la creatività (0.0 = deterministico, 2.0 = molto creativo)
-    temperature=0.8,
+    temperature=1.0,
 
     # max_tokens: limite massimo di token nella risposta
     max_tokens=500,
@@ -34,7 +35,8 @@ print("\n--- Risposta deterministica ---\n")
 risposta_det = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[
-        {"role": "user", "content": "Quanto fa 15 * 23?"}
+        {"role": "system", "content": "Sei esperto in matematica."},
+        {"role": "user", "content": "Parlami della congettura Yau-Tian-Donaldson"}
     ],
     temperature=0,
 )

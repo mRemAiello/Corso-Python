@@ -27,7 +27,3 @@ print(x)
 x = 5
 x = float(x)
 print(x)
-
-booleano = 0
-x = bool(booleano)
-print(x)

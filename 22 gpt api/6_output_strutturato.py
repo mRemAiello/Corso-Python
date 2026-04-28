@@ -3,6 +3,7 @@ from openai import OpenAI
 
 client = OpenAI()
 
+
 # Structured Output: forzare GPT a rispondere in formato JSON strutturato
 # Utile per integrare le risposte in applicazioni
 
@@ -16,7 +17,7 @@ risposta = client.chat.completions.create(
         },
         {
             "role": "user",
-            "content": "Dammi 3 capitali europee con il loro paese e popolazione approssimativa."
+            "content": "Dammi 5 capitali europee con il loro paese e popolazione approssimativa."
         }
     ],
     response_format={"type": "json_object"}
@@ -49,7 +50,7 @@ risposta_strutturata = client.beta.chat.completions.parse(
         },
         {
             "role": "user",
-            "content": "Dammi 3 capitali europee con il loro paese e popolazione approssimativa."
+            "content": "Dammi 5 capitali europee con il loro paese e popolazione approssimativa."
         }
     ],
     response_format=ListaCapitali

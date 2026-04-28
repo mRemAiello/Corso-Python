@@ -8,14 +8,14 @@ eta_min = int(input("Seleziona l'età minima per la media: "))
 media = 0
 conta = 0
 for eta in eta_persone:
+    print("eta", eta)
     if eta > eta_min:
         media = media + eta
         conta = conta + 1
 
-        print("eta", eta)
         print("media", media)
-        print()
+        print("conta", conta)
+    print()
 
 #
-print("totale numeri", conta)
 print("media", media / conta)

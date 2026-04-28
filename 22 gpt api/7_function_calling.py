@@ -47,7 +47,7 @@ tools = [
 
 # 3. Inviare la richiesta con le funzioni disponibili
 messaggi = [
-    {"role": "user", "content": "Che tempo fa a Roma oggi?"}
+    {"role": "user", "content": "Che tempo fa a Palermo oggi?"}
 ]
 
 risposta = client.chat.completions.create(

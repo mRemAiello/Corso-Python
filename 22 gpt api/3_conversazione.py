@@ -30,3 +30,12 @@ while True:
     messaggi.append({"role": "assistant", "content": contenuto})
 
     print(f"\nAssistente: {contenuto}\n")
+
+    #
+    file = open("risposte_conversazione.txt", "w")
+    for elemento in messaggi:
+        ruolo = elemento["role"]
+        messaggio = elemento["content"]
+        file.write(f"Role: {ruolo}\n")
+        file.write(f"{messaggio}\n\n")
+    file.close()

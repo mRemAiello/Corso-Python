@@ -19,13 +19,13 @@ risposta_url = client.chat.completions.create(
                 {
                     "type": "image_url",
                     "image_url": {
-                        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponotus_flavomarginatus_ant.jpg/320px-Camponotus_flavomarginatus_ant.jpg"
+                        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tournesol.png"
                     }
                 }
             ]
         }
     ],
-    max_tokens=300
+    max_tokens=500
 )
 
 print("Analisi da URL:")
