@@ -1,6 +1,6 @@
-from openai import OpenAI
+from openai_setup import get_client
 
-client = OpenAI()
+client = get_client()
 
 # Parametri principali per controllare la generazione del testo
 

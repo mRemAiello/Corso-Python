@@ -1,11 +1,8 @@
 # pip install openai
 
-from openai import OpenAI
+from openai_setup import get_client
 
-# Creare un client OpenAI
-# La chiave API viene letta automaticamente dalla variabile d'ambiente OPENAI_API_KEY
-# oppure puoi passarla direttamente: OpenAI(api_key="sk-...")
-client = OpenAI()
+client = get_client()
 
 question = input("Scrivi la domanda da fare a gpt")
 question += "\nFornisci la risposta in JSON"

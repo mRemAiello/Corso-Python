@@ -1,7 +1,7 @@
 import base64
-from openai import OpenAI
+from openai_setup import get_client
 
-client = OpenAI()
+client = get_client()
 
 # GPT-4o può analizzare immagini (Vision)
 

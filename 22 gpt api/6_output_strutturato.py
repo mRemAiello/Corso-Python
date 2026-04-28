@@ -1,7 +1,7 @@
 import json
-from openai import OpenAI
+from openai_setup import get_client
 
-client = OpenAI()
+client = get_client()
 
 
 # Structured Output: forzare GPT a rispondere in formato JSON strutturato

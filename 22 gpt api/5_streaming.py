@@ -1,6 +1,6 @@
-from openai import OpenAI
+from openai_setup import get_client
 
-client = OpenAI()
+client = get_client()
 
 # Streaming: ricevere la risposta token per token in tempo reale
 # Utile per interfacce utente reattive (come ChatGPT)

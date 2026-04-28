@@ -3,9 +3,9 @@ Esempio avanzato: chatbot RAG (Retrieval-Augmented Generation)
 che risponde a domande basandosi su documenti forniti.
 """
 
-from openai import OpenAI
+from openai_setup import get_client
 
-client = OpenAI()
+client = get_client()
 
 
 # --- 1. Base di conoscenza simulata ---

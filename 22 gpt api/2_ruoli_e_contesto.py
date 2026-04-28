@@ -1,6 +1,6 @@
-from openai import OpenAI
+from openai_setup import get_client
 
-client = OpenAI()
+client = get_client()
 
 # I messaggi hanno 3 ruoli principali:
 # - "system": istruzioni per il comportamento dell'assistente

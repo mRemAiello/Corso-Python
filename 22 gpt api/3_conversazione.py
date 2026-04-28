@@ -1,6 +1,6 @@
-from openai import OpenAI
+from openai_setup import get_client
 
-client = OpenAI()
+client = get_client()
 
 # Simulare una conversazione multi-turno
 # GPT non ha memoria: bisogna inviare tutta la cronologia ogni volta

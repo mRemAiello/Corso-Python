@@ -1,6 +1,6 @@
-from openai import OpenAI
+from openai_setup import get_client
 
-client = OpenAI()
+client = get_client()
 
 # Text-to-Speech (TTS) e Speech-to-Text (STT)
 

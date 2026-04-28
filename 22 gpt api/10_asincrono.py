@@ -1,8 +1,8 @@
 import asyncio
-from openai import AsyncOpenAI
+from openai_setup import get_async_client
 
 # Client asincrono per richieste parallele
-client = AsyncOpenAI()
+client = get_async_client()
 
 
 async def richiesta_singola(domanda: str, indice: int) -> str:

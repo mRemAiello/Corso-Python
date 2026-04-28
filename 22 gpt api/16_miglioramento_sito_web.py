@@ -1,12 +1,9 @@
 import requests
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
-from openai import OpenAI
+from openai_setup import get_client
 
-# Creare un client OpenAI
-# La chiave API viene letta automaticamente dalla variabile d'ambiente OPENAI_API_KEY
-# oppure puoi passarla direttamente: OpenAI(api_key="sk-...")
-client = OpenAI()
+client = get_client()
 
 
 HEADERS = {
