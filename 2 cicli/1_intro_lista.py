@@ -2,7 +2,7 @@ x = 5
 print(x)
 
 # Lista di elementi
-# indici   0        1         2          3          4         5       6
+# indici   0        1         2          3          4         5           6
 lista = ["mela", "pera", "ciliegia", "lampone", "banana", "mirtillo", "fragola"]
 print(lista)
 print(lista[0])

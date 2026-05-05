@@ -5,7 +5,20 @@ massimo = 15
 panini = int(random.uniform(-1, massimo))
 print("Panini:", panini)
 
-# panini > 10, panini < 10, panini >= 10, panini <= 10, panini == 10
+# Maggiore di 10
+# panini > 10
+
+# Minore di 10
+# panini < 10
+
+# Va bene sia maggiore ma anche uguale (quindi 10, 11, 12...)
+# panini >= 10
+
+# Come sopra, va bene sia 10 che meno di 10 (10, 9, 8, 7....)
+# panini <= 10
+
+# ESATTAMENTE uguale a 10
+# panini == 10
 
 if panini > 10:
     print("Mangia il pane")
@@ -51,6 +64,15 @@ if not panini > 10:
 # Scrivere un programma che chiede all'utente di inserire un numero e stampa "Il numero è positivo"
 # se il numero è maggiore di zero, altrimenti stampa "Il numero è negativo".
 # Eseguire l'esercizio anche generando un numero random. Trasformare il numero random in int.
+import random
+
+numero = int(input("Scegli un numero: "))
+if numero > 0:
+    print("Positivo")
+elif numero < 0:
+    print("Negativo")
+else:
+    print("Zero")
 
 
 # Scrivere un programma che chiede all'utente di inserire due numeri e stampa "Il primo numero è maggiore"

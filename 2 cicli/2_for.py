@@ -1,5 +1,5 @@
 # Esempio con media
-eta_persone = [18, 20, 22, 30, 35, 20, 40, 40]
+eta_persone = [18, 20, 22, 9, 30, 35, 20, 40, 45, 40]
 
 
 # Ciclo for media

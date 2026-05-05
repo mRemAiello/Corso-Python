@@ -1,20 +1,35 @@
-# Dati due interi che rappresentano rispettivamento il tasso di propagazione di un virus
-# (quante nuove persone ogni giorno si ammalano per ogni persona già ammalata) e
-# la quantità di persone di una popolazione, dica quanti giorni sono necessari perché sia
-# ammalata almeno la metà della popolazione considerando che all’inizio ci sia una sola persona ammalata.
+# ESERCIZI CICLI - LIVELLO 2 (INTERMEDIO)
+# Obiettivo: usare cicli con input utente, intervalli, condizioni e accumulatori.
 
+# 1) Leggi due numeri N e M, stampa tutti i numeri compresi tra N e M.
 
+# 2) Come il precedente, ma separa pari e dispari.
 
-# Dato un numero intero che rappresenta un numero di ammalati e
-# un numero intero che rappresenta la percentuale di ammalati che ogni giorno guarisce,
-# calcolare quanti giorni sono necessari affinché il numero di ammalati sia minore di 100.
+# 3) Somma tutti i numeri compresi tra N e M.
 
+# 4) Somma alternata tra N e M: aggiungi i pari, sottrai i dispari.
 
+# 5) Chiedi numeri finche l'utente inserisce 0. Stampa:
+#    - quanti numeri sono stati inseriti
+#    - la somma totale
+#    - la media finale
 
-# Mario è uno studente che ha una quantità di soldi stabilita dall’utente,
-# ogni giorno Mario all’intervallo può acquistare al bar della scuola una pastina
-# che costa 1 euro o un panino che costa 1,5 euro.
-# Il programma continua a chiedere all’utente cosa mangerà Mario quel giorno
-# finché ha abbastanza soldi o non ha la possibilità di soddisfare il suo appetito con quello che vuole.
-# Al termine del programma scrivere in output il numero di giorni in cui Mario
-# ha mangiato e quante volte ha mangiato una pastina e quante un panino.
+# 6) Chiedi n numeri e conta quanti sono:
+#    - maggiori di 0
+#    - uguali a 0
+#    - minori di 0
+
+# 7) Chiedi n e val. Poi leggi n numeri e conta quanti sono
+#    maggiori, minori o uguali a val.
+
+# 8) Data una soglia (per esempio 20), continua a chiedere numeri
+#    finche la somma non raggiunge o supera la soglia.
+
+# 9) Genera un numero casuale tra 1 e 10 e fai il gioco "indovina il numero"
+#    contando i tentativi.
+
+# 10) Chiedi una serie di temperature (numero giorni scelto dall'utente)
+#     e calcola minima, massima e media.
+
+# Estensione consigliata:
+# Risolvi ogni esercizio prima con while e poi con for.
