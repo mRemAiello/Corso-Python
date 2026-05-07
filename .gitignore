@@ -169,3 +169,4 @@ extra bloomberg/
 extra canarbino/
 PLC/
 /python.zip
+.env

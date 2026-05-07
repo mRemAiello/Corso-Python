@@ -1,21 +1,29 @@
-# Concetti chiave
+# ============================================================
+# Strutture dati in Python: confronto tra List, Tuple, Set e Dict
+# ============================================================
 
-# Ordinato: Collezione con ordine ben definito, l'aggiunta / rimozione di elementi può cambiare
-# l'ordine ma non il fatto che la collezione rimane ordinata
+# --- Concetti chiave ---
 
-# Indicizzato: Viene utilizzato un indice per accedere agli elementi
+# Ordinata     : gli elementi mantengono un ordine stabile di inserimento
+# Indicizzata  : si accede agli elementi tramite indice (es. lista[0])
+# Modificabile : si possono aggiungere, rimuovere o cambiare elementi dopo la creazione
+# Immutabile   : una volta creata, la collezione non può essere modificata
+# Duplicati    : la collezione può contenere più elementi con lo stesso valore
 
-# Modificabile: Una volta creata la collezione, può essere modificata con aggiunte e rimozioni
+# --- Riepilogo ---
+#
+#  Tipo        | Ordinata | Indicizzata | Modificabile | Duplicati | Sintassi
+#  ------------|----------|-------------|--------------|-----------|----------
+#  list        |    Sì    |     Sì      |      Sì      |    Sì     |  [1, 2]
+#  tuple       |    Sì    |     Sì      |      No      |    Sì     |  (1, 2)
+#  set         |    No    |     No      |      Sì      |    No     |  {1, 2}
+#  dict        |    Sì    |  per chiave |      Sì      |    No*    |  {"k": v}
+#
+#  * i dizionari non permettono chiavi duplicate (i valori possono ripetersi)
 
-# Immutabile: Non possiamo cambiare elementi una volta creata la collezione
+# --- Esempi rapidi ---
 
-# Permette duplicati: Possiamo inserire elementi dello stesso valore
-
-
-
-# Le liste sono ordinate e modificabili. Permettono duplicati.
-# Le tuple sono ordinate ma immutabili. Permettono duplicati.
-
-# Set non sono ordinati e non sono indicizzati. Non permettono duplicati.
-
-# I dizionari sono ordinati e modificabili. Non permettono duplicati.
+lista  = [1, 2, 2, 3]          # modificabile, duplicati ammessi
+tupla  = (1, 2, 2, 3)          # immutabile,   duplicati ammessi
+gruppo = {1, 2, 3}             # niente duplicati, niente indice
+diz    = {"a": 1, "b": 2}      # accesso per chiave: diz["a"] → 1

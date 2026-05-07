@@ -1,18 +1,56 @@
-# Creare una lista vuota e assegnarla a una variabile.
-# Creare una lista di numeri interi da 1 a 5 e assegnarla a una variabile.
-# Accedere all'elemento con indice 2 della lista precedente.
-# Aggiungere un nuovo elemento "6" alla lista precedente.
-# Aggiungere l'elemento 8 dopo l'indice 3.
-# Rimuovere l'elemento 1 dalla lista precedente.
-# Creare una nuova lista che contenga solo i primi tre elementi della lista precedente.
-# Ordinare la lista precedente in ordine crescente.
-# Ordinare la lista precedente in ordine decrescente.
-# Unisci le due liste precedentemente create, con extend e copy.
-# Contare quante volte l'elemento "2" appare nella lista precedente.
+# =============================================================================
+# ESERCIZI — LIST
+# =============================================================================
 
-# Creare una nuova lista che contenga gli elementi con indici pari della lista precedente, con for e while.
-# Creare una nuova lista che contenga gli elementi con indici dispari della lista precedente, con for e while.
+# ── Creazione ─────────────────────────────────────────────────────────────────
+# 1.  Crea una lista vuota e assegnala a una variabile.
+# 2.  Crea una lista di numeri interi da 1 a 5.
+# 3.  Crea una lista che contenga elementi di tipi diversi: un intero, una stringa e un booleano.
 
-# Creare una lista di numeri interi e stampare solo gli elementi divisibili per 3.
+# ── Accesso e slicing ─────────────────────────────────────────────────────────
+# 4.  Accedi all'elemento con indice 2 della lista creata al punto 2.
+# 5.  Accedi all'ultimo elemento usando l'indicizzazione negativa.
+# 6.  Ottieni una sotto-lista con i primi tre elementi usando lo slicing.
+# 7.  Ottieni una sotto-lista con gli elementi dal secondo all'ultimo (inclusi) usando lo slicing.
 
-# Creare due liste di numeri interi. Stampare solo i numeri che sono presenti in entrambe le liste.
+# ── Modifica ──────────────────────────────────────────────────────────────────
+# 8.  Aggiungi il valore 6 in fondo alla lista del punto 2.
+# 9.  Inserisci il valore 8 dopo l'elemento con indice 3.
+# 10. Sostituisci il secondo elemento della lista con il valore 99.
+# 11. Rimuovi il valore 1 dalla lista.
+# 12. Rimuovi l'elemento all'indice 0 con .pop() e stampa il valore restituito.
+
+# ── Ordinamento ───────────────────────────────────────────────────────────────
+# 13. Ordina la lista in ordine crescente.
+# 14. Ordina la lista in ordine decrescente.
+# 15. Usa sorted() per ottenere una copia ordinata senza modificare la lista originale.
+
+# ── Unione e copia ────────────────────────────────────────────────────────────
+# 16. Unisci due liste usando .extend().
+# 17. Crea una copia indipendente di una lista con .copy() e verifica che modificarla
+#     non influenzi l'originale.
+
+# ── Ricerca e conteggio ───────────────────────────────────────────────────────
+# 18. Conta quante volte il valore 2 appare in una lista.
+# 19. Trova l'indice della prima occorrenza di un elemento con .index().
+# 20. Verifica se un valore è presente nella lista usando l'operatore 'in'.
+
+# ── Iterazione ────────────────────────────────────────────────────────────────
+# 21. Crea una lista [10, 20, 30, 40, 50, 60, 70].
+#     Crea una nuova lista con gli elementi agli indici pari, usando sia 'for' che 'while'.
+# 22. Con la stessa lista, crea una nuova lista con gli elementi agli indici dispari,
+#     usando sia 'for' che 'while'.
+# 23. Itera sulla lista con enumerate() e stampa ogni coppia (indice, valore).
+
+# ── Filtraggio ────────────────────────────────────────────────────────────────
+# 24. Data una lista di numeri interi, stampa solo gli elementi divisibili per 3.
+# 25. Date due liste di numeri interi, stampa solo i valori presenti in entrambe.
+# 26. Data una lista di stringhe, crea una nuova lista con sole le stringhe
+#     che iniziano con la lettera 'a' (ignora maiuscole/minuscole).
+
+# ── Avanzati ──────────────────────────────────────────────────────────────────
+# 27. Inverti una lista senza usare .reverse(), solo con lo slicing.
+# 28. Rimuovi tutti i duplicati da una lista mantenendo l'ordine degli elementi.
+# 29. Data una lista di numeri, calcola somma, minimo, massimo e media.
+# 30. Crea una lista di liste (matrice 3×3) e accedi all'elemento nella seconda riga,
+#     terza colonna.
