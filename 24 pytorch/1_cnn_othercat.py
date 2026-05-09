@@ -24,8 +24,9 @@ class SimpleCNN(nn.Module):
     def __init__(self, num_classes: int) -> None:
         super().__init__()
         self.features = nn.Sequential(
-            nn.Conv2d(3, 32, kernel_size=3, padding=1),  # Estrae feature locali: da 3 canali RGB a 32 mappe. Inserisce un padding di 1 per mantenere le dimensioni spaziali (128x128) ed evitare perdita sulle feature maps.
-            nn.ReLU(),  # Introduce non linearita, azzerando i valori negativi.
+            nn.Conv2d(3, 32, kernel_size=3, padding=1),  # Estrae feature locali: da 3 canali RGB a 32 mappe.
+            # Inserisce un padding di 1 per mantenere le dimensioni spaziali (128x128) ed evitare perdita sulle feature maps.
+            nn.ReLU(),  # Introduce non linearita, azzerando i valori negativi. f(x) = max(0, x)
             nn.MaxPool2d(kernel_size=2),  # Riduce altezza/larghezza di 2x mantenendo le feature piu rilevanti.
             nn.Conv2d(32, 64, kernel_size=3, padding=1),  # Aumenta la profondita: da 32 a 64 mappe di feature.
             nn.ReLU(),  # Nuova non linearita dopo la seconda convoluzione.
