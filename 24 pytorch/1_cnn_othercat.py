@@ -25,14 +25,14 @@ class SimpleCNN(nn.Module):
     def __init__(self, num_classes: int) -> None:
         super().__init__()
         self.features = nn.Sequential(
-            nn.Conv2d(3, 32, kernel_size=3, padding=1),  # Estrae feature locali: da 3 canali RGB a 32 mappe.
+            nn.Conv2d(3, 32, kernel_size=5, padding=2),  # Estrae feature locali: da 3 canali RGB a 32 mappe.
             # Inserisce un padding di 1 per mantenere le dimensioni spaziali (128x128) ed evitare perdita sulle feature maps.
             nn.ReLU(),  # Introduce non linearita, azzerando i valori negativi. f(x) = max(0, x)
             nn.MaxPool2d(kernel_size=2),  # Riduce altezza/larghezza di 2x mantenendo le feature piu rilevanti.
-            nn.Conv2d(32, 64, kernel_size=3, padding=1),  # Aumenta la profondita: da 32 a 64 mappe di feature.
+            nn.Conv2d(32, 64, kernel_size=5, padding=2),  # Aumenta la profondita: da 32 a 64 mappe di feature.
             nn.ReLU(),  # Nuova non linearita dopo la seconda convoluzione.
             nn.MaxPool2d(kernel_size=2),  # Nuovo downsampling spaziale (dimensioni ancora dimezzate).
-            nn.Conv2d(64, 128, kernel_size=3, padding=1),  # Livello piu profondo: apprende pattern piu complessi.
+            nn.Conv2d(64, 128, kernel_size=5, padding=2),  # Livello piu profondo: apprende pattern piu complessi.
             nn.ReLU(),  # Applica la funzione di attivazione anche su queste feature avanzate.
             nn.MaxPool2d(kernel_size=2),  # Ultima riduzione spaziale prima del classificatore fully-connected.
         )
@@ -150,9 +150,7 @@ def main() -> None:
     print(f"Immagini totali: {len(dataset)}")
 
     for epoch in range(1, epochs + 1):
-        train_loss, train_acc = train_one_epoch(
-            model, train_loader, criterion, optimizer, device
-        )
+        train_loss, train_acc = train_one_epoch(model, train_loader, criterion, optimizer, device)
         val_loss, val_acc = evaluate(model, val_loader, criterion, device)
 
         print(
