@@ -7,9 +7,8 @@ client = get_client()
 # --- 1. Text-to-Speech: generare audio da testo ---
 risposta_audio = client.audio.speech.create(
     model="tts-1",  # "tts-1" (veloce) o "tts-1-hd" (alta qualità)
-    voice="alloy",  # voci: alloy, echo, fable, onyx, nova, shimmer
-    input="Ciao! Questo è un esempio di sintesi vocale con le API di OpenAI. "
-          "Python è un linguaggio fantastico per l'intelligenza artificiale."
+    voice="nova",  # voci: alloy, echo, fable, onyx, nova, shimmer
+    input="Hello, this is an example of vocal synthesis with the API of OpenAI. Python is a fantastic language for artificial intelligence."
 )
 
 # Salvare il file audio

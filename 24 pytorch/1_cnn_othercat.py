@@ -19,6 +19,7 @@ from torch import nn
 from torch.utils.data import DataLoader, random_split
 from torchvision import datasets, transforms
 
+# RBG n * m -> R, G, B
 
 class SimpleCNN(nn.Module):
     def __init__(self, num_classes: int) -> None:
@@ -165,5 +166,4 @@ def main() -> None:
     print(f"Modello salvato in: {model_path}")
 
 
-if __name__ == "__main__":
-    main()
+main()

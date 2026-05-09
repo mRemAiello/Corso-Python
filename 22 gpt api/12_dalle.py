@@ -6,12 +6,9 @@ client = get_client()
 
 # --- 1. Generare un'immagine ---
 risposta = client.images.generate(
-    model="dall-e-3",
+    model="gpt-image-2",
     prompt="Un gatto arancione seduto su una pila di libri di programmazione, "
-           "stile illustrazione digitale, colori vivaci",
-    size="1024x1024",
-    quality="standard",  # "standard" o "hd"
-    n=1
+           "stile illustrazione digitale, colori vivaci"
 )
 
 url_immagine = risposta.data[0].url
