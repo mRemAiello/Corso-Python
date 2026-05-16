@@ -47,8 +47,8 @@ primo_set.discard("Milano")
 # lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, D, C, R]
 # mazzo = set(list)
 # carta_estratta = mazzo.pop()
-terzo_set = primo_set.pop()
-print(terzo_set)
+elemento_estratto = primo_set.pop()
+print(elemento_estratto)
 
 # Pulizia del set e cancellazione dello stesso in memoria
 # x.clear()
