@@ -6,7 +6,10 @@ x = "5"
 # Inverso diventa 5.1 => "5.1"
 y = 5.1
 
-# Esempio
+# Esempio ->
+# int(x) -> trasforma "5" in 5 ->
+# 5 + y -> 5 + 5.1 -> 10.1 ->
+# print(10.1)
 print(int(x) + y)
 
 # Qui sommo y (int) e x (str) che sono due variabili di tipo differente

@@ -1,0 +1,132 @@
+{
+  "http://schemas.openxmlformats.org/officedocument/2006/extended-properties\"": {
+    "original": "http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"",
+    "replacement": "https://example1.com",
+    "type": "URL"
+  },
+  "http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"": {
+    "original": "http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"",
+    "replacement": "https://example2.com",
+    "type": "URL"
+  },
+  "http://schemas.openxmlformats.org/officedocument/2006/docpropsvtypes\"": {
+    "original": "http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes\"",
+    "replacement": "https://example3.com",
+    "type": "URL"
+  },
+  "http://www.w3.org/2001/xmlschema-instance\"": {
+    "original": "http://www.w3.org/2001/XMLSchema-instance\"",
+    "replacement": "https://example4.com",
+    "type": "URL"
+  },
+  "http://purl.org/dc/elements/1.1/\"": {
+    "original": "http://purl.org/dc/elements/1.1/\"",
+    "replacement": "https://example5.com",
+    "type": "URL"
+  },
+  "http://purl.org/dc/dcmitype/\"": {
+    "original": "http://purl.org/dc/dcmitype/\"",
+    "replacement": "https://example6.com",
+    "type": "URL"
+  },
+  "dcmitype=\"http://purl.org/dc": {
+    "original": "dcmitype=\"http://purl.org/dc",
+    "replacement": "Azienda 1",
+    "type": "COMPANY"
+  },
+  "dcterms=\"http://purl.org/dc": {
+    "original": "dcterms=\"http://purl.org/dc",
+    "replacement": "Azienda 2",
+    "type": "COMPANY"
+  },
+  "xsi=\"http://www.w3.org/2001": {
+    "original": "xsi=\"http://www.w3.org/2001",
+    "replacement": "Persona 1",
+    "type": "PERSON"
+  },
+  "http://purl.org/dc/terms/\"": {
+    "original": "http://purl.org/dc/terms/\"",
+    "replacement": "https://example7.com",
+    "type": "URL"
+  },
+  "schemas.openxmlformats.org": {
+    "original": "schemas.openxmlformats.org",
+    "replacement": "example1.com",
+    "type": "DOMAIN"
+  },
+  "adatum corporation": {
+    "original": "Adatum Corporation",
+    "replacement": "Azienda 3",
+    "type": "COMPANY"
+  },
+  "eugenia@adatum.com": {
+    "original": "eugenia@adatum.com",
+    "replacement": "email_1@example.com",
+    "type": "EMAIL"
+  },
+  "microsoft office": {
+    "original": "Microsoft Office",
+    "replacement": "Azienda 4",
+    "type": "COMPANY"
+  },
+  "www.adatum.com": {
+    "original": "www.adatum.com",
+    "replacement": "https://example8.com",
+    "type": "URL"
+  },
+  "eugenia lopez": {
+    "original": "Eugenia Lopez",
+    "replacement": "Persona 2",
+    "type": "PERSON"
+  },
+  "606-555-0156": {
+    "original": "606-555-0156",
+    "replacement": "+39 000 000 0001",
+    "type": "PHONE"
+  },
+  "bookman old": {
+    "original": "Bookman Old",
+    "replacement": "Persona 3",
+    "type": "PERSON"
+  },
+  "adatum.com": {
+    "original": "adatum.com",
+    "replacement": "example2.com",
+    "type": "DOMAIN"
+  },
+  "www.w3.org": {
+    "original": "www.w3.org",
+    "replacement": "example3.com",
+    "type": "DOMAIN"
+  },
+  "milestone": {
+    "original": "Milestone",
+    "replacement": "Azienda 5",
+    "type": "COMPANY"
+  },
+  "purl.org": {
+    "original": "purl.org",
+    "replacement": "example4.com",
+    "type": "DOMAIN"
+  },
+  "you</vt": {
+    "original": "you</vt",
+    "replacement": "Persona 4",
+    "type": "PERSON"
+  },
+  "agenda": {
+    "original": "Agenda",
+    "replacement": "Prodotto 1",
+    "type": "PRODUCT"
+  },
+  "aptos": {
+    "original": "Aptos",
+    "replacement": "Luogo 1",
+    "type": "LOCATION"
+  },
+  "edge": {
+    "original": "Edge",
+    "replacement": "Azienda 6",
+    "type": "COMPANY"
+  }
+}

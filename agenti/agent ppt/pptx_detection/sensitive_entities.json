@@ -1,0 +1,459 @@
+{
+  "source_file": "presentazione.pptx",
+  "total_blocks_scanned": 58,
+  "total_entities_found": 32,
+  "detections": [
+    {
+      "block_index": 2,
+      "location": {
+        "source": "slide_text",
+        "slide_number": 1
+      },
+      "text": "Eugenia Lopez",
+      "entities": [
+        {
+          "text": "Eugenia Lopez",
+          "type": "PERSON",
+          "start": 0,
+          "end": 13,
+          "method": "spacy",
+          "original_label": "PERSON"
+        }
+      ]
+    },
+    {
+      "block_index": 3,
+      "location": {
+        "source": "slide_text",
+        "slide_number": 2
+      },
+      "text": "Agenda",
+      "entities": [
+        {
+          "text": "Agenda",
+          "type": "PRODUCT",
+          "start": 0,
+          "end": 6,
+          "method": "spacy",
+          "original_label": "PRODUCT"
+        }
+      ]
+    },
+    {
+      "block_index": 13,
+      "location": {
+        "source": "slide_text",
+        "slide_number": 7
+      },
+      "text": "Stands out in market\nInnovative features\nProvides unique solution\nEdge over competitors\nUser-focused design\nPrioritizes user experience",
+      "entities": [
+        {
+          "text": "Edge",
+          "type": "COMPANY",
+          "start": 66,
+          "end": 70,
+          "method": "spacy",
+          "original_label": "ORG"
+        }
+      ]
+    },
+    {
+      "block_index": 21,
+      "location": {
+        "source": "table_cell",
+        "slide_number": 10,
+        "table_index": 1,
+        "row_index": 1,
+        "col_index": 1
+      },
+      "text": "Milestone",
+      "entities": [
+        {
+          "text": "Milestone",
+          "type": "COMPANY",
+          "start": 0,
+          "end": 9,
+          "method": "spacy",
+          "original_label": "ORG"
+        }
+      ]
+    },
+    {
+      "block_index": 53,
+      "location": {
+        "source": "slide_text",
+        "slide_number": 12
+      },
+      "text": "With this product, Adatum Corporation is positioned for success in the dynamic market. \nWith a focus on innovation, user experience, and strategic growth, we anticipate reaching new heights in the coming year.\nOur commitment to user satisfaction underscores every aspect of our operations.",
+      "entities": [
+        {
+          "text": "Adatum Corporation",
+          "type": "COMPANY",
+          "start": 19,
+          "end": 37,
+          "method": "spacy",
+          "original_label": "ORG"
+        }
+      ]
+    },
+    {
+      "block_index": 56,
+      "location": {
+        "source": "slide_text",
+        "slide_number": 13
+      },
+      "text": "Eugenia Lopez\n606-555-0156\neugenia@adatum.com\nwww.adatum.com",
+      "entities": [
+        {
+          "text": "eugenia@adatum.com",
+          "type": "EMAIL",
+          "start": 27,
+          "end": 45,
+          "method": "regex"
+        },
+        {
+          "text": "606-555-0156",
+          "type": "PHONE",
+          "start": 14,
+          "end": 26,
+          "method": "regex"
+        },
+        {
+          "text": "www.adatum.com",
+          "type": "URL",
+          "start": 46,
+          "end": 60,
+          "method": "regex"
+        },
+        {
+          "text": "adatum.com",
+          "type": "DOMAIN",
+          "start": 35,
+          "end": 45,
+          "method": "regex"
+        },
+        {
+          "text": "www.adatum.com",
+          "type": "DOMAIN",
+          "start": 46,
+          "end": 60,
+          "method": "regex"
+        },
+        {
+          "text": "Eugenia Lopez",
+          "type": "PERSON",
+          "start": 0,
+          "end": 13,
+          "method": "spacy",
+          "original_label": "PERSON"
+        }
+      ]
+    },
+    {
+      "block_index": 57,
+      "location": {
+        "source": "metadata",
+        "metadata_file": "core.xml"
+      },
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>Title Lorem Ipsum</dc:title><dcterms:created xsi:type=\"dcterms:W3CDTF\">2023-08-29T05:41:17Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2025-01-23T06:39:21Z</dcterms:modified></cp:coreProperties>",
+      "entities": [
+        {
+          "text": "http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"",
+          "type": "URL",
+          "start": 85,
+          "end": 157,
+          "method": "regex"
+        },
+        {
+          "text": "http://purl.org/dc/elements/1.1/\"",
+          "type": "URL",
+          "start": 168,
+          "end": 201,
+          "method": "regex"
+        },
+        {
+          "text": "http://purl.org/dc/terms/\"",
+          "type": "URL",
+          "start": 217,
+          "end": 243,
+          "method": "regex"
+        },
+        {
+          "text": "http://purl.org/dc/dcmitype/\"",
+          "type": "URL",
+          "start": 260,
+          "end": 289,
+          "method": "regex"
+        },
+        {
+          "text": "http://www.w3.org/2001/XMLSchema-instance\"",
+          "type": "URL",
+          "start": 301,
+          "end": 343,
+          "method": "regex"
+        },
+        {
+          "text": "schemas.openxmlformats.org",
+          "type": "DOMAIN",
+          "start": 92,
+          "end": 118,
+          "method": "regex"
+        },
+        {
+          "text": "purl.org",
+          "type": "DOMAIN",
+          "start": 175,
+          "end": 183,
+          "method": "regex"
+        },
+        {
+          "text": "purl.org",
+          "type": "DOMAIN",
+          "start": 224,
+          "end": 232,
+          "method": "regex"
+        },
+        {
+          "text": "purl.org",
+          "type": "DOMAIN",
+          "start": 267,
+          "end": 275,
+          "method": "regex"
+        },
+        {
+          "text": "www.w3.org",
+          "type": "DOMAIN",
+          "start": 308,
+          "end": 318,
+          "method": "regex"
+        },
+        {
+          "text": "dcterms=\"http://purl.org/dc",
+          "type": "COMPANY",
+          "start": 208,
+          "end": 235,
+          "method": "spacy",
+          "original_label": "ORG"
+        },
+        {
+          "text": "dcmitype=\"http://purl.org/dc",
+          "type": "COMPANY",
+          "start": 250,
+          "end": 278,
+          "method": "spacy",
+          "original_label": "ORG"
+        },
+        {
+          "text": "xsi=\"http://www.w3.org/2001",
+          "type": "PERSON",
+          "start": 296,
+          "end": 323,
+          "method": "spacy",
+          "original_label": "PERSON"
+        }
+      ]
+    },
+    {
+      "block_index": 58,
+      "location": {
+        "source": "metadata",
+        "metadata_file": "app.xml"
+      },
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\" xmlns:vt=\"http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes\"><Template></Template><TotalTime>4957</TotalTime><Words>321</Words><Application>Microsoft Office PowerPoint</Application><PresentationFormat>Widescreen</PresentationFormat><Paragraphs>101</Paragraphs><Slides>13</Slides><Notes>0</Notes><HiddenSlides>0</HiddenSlides><MMClips>0</MMClips><ScaleCrop>false</ScaleCrop><HeadingPairs><vt:vector size=\"6\" baseType=\"variant\"><vt:variant><vt:lpstr>Fonts Used</vt:lpstr></vt:variant><vt:variant><vt:i4>5</vt:i4></vt:variant><vt:variant><vt:lpstr>Theme</vt:lpstr></vt:variant><vt:variant><vt:i4>1</vt:i4></vt:variant><vt:variant><vt:lpstr>Slide Titles</vt:lpstr></vt:variant><vt:variant><vt:i4>13</vt:i4></vt:variant></vt:vector></HeadingPairs><TitlesOfParts><vt:vector size=\"19\" baseType=\"lpstr\"><vt:lpstr>Aptos Light</vt:lpstr><vt:lpstr>Aptos SemiBold</vt:lpstr><vt:lpstr>Arial</vt:lpstr><vt:lpstr>Bookman Old Style</vt:lpstr><vt:lpstr>Calibri</vt:lpstr><vt:lpstr>Damask</vt:lpstr><vt:lpstr>Pitch deck</vt:lpstr><vt:lpstr>Agenda</vt:lpstr><vt:lpstr>About us</vt:lpstr><vt:lpstr>Product overview</vt:lpstr><vt:lpstr>Product  benefits</vt:lpstr><vt:lpstr>Market overview</vt:lpstr><vt:lpstr>Market  comparison</vt:lpstr><vt:lpstr>Competitive landscape</vt:lpstr><vt:lpstr>Growth strategy</vt:lpstr><vt:lpstr>Traction</vt:lpstr><vt:lpstr>Financials</vt:lpstr><vt:lpstr>Summary</vt:lpstr><vt:lpstr>Thank you</vt:lpstr></vt:vector></TitlesOfParts><Company></Company><LinksUpToDate>false</LinksUpToDate><SharedDoc>false</SharedDoc><HyperlinksChanged>false</HyperlinksChanged><AppVersion>16.0000</AppVersion></Properties>",
+      "entities": [
+        {
+          "text": "http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"",
+          "type": "URL",
+          "start": 75,
+          "end": 149,
+          "method": "regex"
+        },
+        {
+          "text": "http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes\"",
+          "type": "URL",
+          "start": 160,
+          "end": 229,
+          "method": "regex"
+        },
+        {
+          "text": "schemas.openxmlformats.org",
+          "type": "DOMAIN",
+          "start": 82,
+          "end": 108,
+          "method": "regex"
+        },
+        {
+          "text": "schemas.openxmlformats.org",
+          "type": "DOMAIN",
+          "start": 167,
+          "end": 193,
+          "method": "regex"
+        },
+        {
+          "text": "Microsoft Office",
+          "type": "COMPANY",
+          "start": 309,
+          "end": 325,
+          "method": "spacy",
+          "original_label": "ORG"
+        },
+        {
+          "text": "Aptos",
+          "type": "LOCATION",
+          "start": 974,
+          "end": 979,
+          "method": "spacy",
+          "original_label": "GPE"
+        },
+        {
+          "text": "Bookman Old",
+          "type": "PERSON",
+          "start": 1067,
+          "end": 1078,
+          "method": "spacy",
+          "original_label": "PERSON"
+        },
+        {
+          "text": "you</vt",
+          "type": "PERSON",
+          "start": 1569,
+          "end": 1576,
+          "method": "spacy",
+          "original_label": "PERSON"
+        }
+      ]
+    }
+  ],
+  "anonymization_map": {
+    "http://schemas.openxmlformats.org/officedocument/2006/extended-properties\"": {
+      "original": "http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"",
+      "replacement": "https://example1.com",
+      "type": "URL"
+    },
+    "http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"": {
+      "original": "http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"",
+      "replacement": "https://example2.com",
+      "type": "URL"
+    },
+    "http://schemas.openxmlformats.org/officedocument/2006/docpropsvtypes\"": {
+      "original": "http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes\"",
+      "replacement": "https://example3.com",
+      "type": "URL"
+    },
+    "http://www.w3.org/2001/xmlschema-instance\"": {
+      "original": "http://www.w3.org/2001/XMLSchema-instance\"",
+      "replacement": "https://example4.com",
+      "type": "URL"
+    },
+    "http://purl.org/dc/elements/1.1/\"": {
+      "original": "http://purl.org/dc/elements/1.1/\"",
+      "replacement": "https://example5.com",
+      "type": "URL"
+    },
+    "http://purl.org/dc/dcmitype/\"": {
+      "original": "http://purl.org/dc/dcmitype/\"",
+      "replacement": "https://example6.com",
+      "type": "URL"
+    },
+    "dcmitype=\"http://purl.org/dc": {
+      "original": "dcmitype=\"http://purl.org/dc",
+      "replacement": "Azienda 1",
+      "type": "COMPANY"
+    },
+    "dcterms=\"http://purl.org/dc": {
+      "original": "dcterms=\"http://purl.org/dc",
+      "replacement": "Azienda 2",
+      "type": "COMPANY"
+    },
+    "xsi=\"http://www.w3.org/2001": {
+      "original": "xsi=\"http://www.w3.org/2001",
+      "replacement": "Persona 1",
+      "type": "PERSON"
+    },
+    "http://purl.org/dc/terms/\"": {
+      "original": "http://purl.org/dc/terms/\"",
+      "replacement": "https://example7.com",
+      "type": "URL"
+    },
+    "schemas.openxmlformats.org": {
+      "original": "schemas.openxmlformats.org",
+      "replacement": "example1.com",
+      "type": "DOMAIN"
+    },
+    "adatum corporation": {
+      "original": "Adatum Corporation",
+      "replacement": "Azienda 3",
+      "type": "COMPANY"
+    },
+    "eugenia@adatum.com": {
+      "original": "eugenia@adatum.com",
+      "replacement": "email_1@example.com",
+      "type": "EMAIL"
+    },
+    "microsoft office": {
+      "original": "Microsoft Office",
+      "replacement": "Azienda 4",
+      "type": "COMPANY"
+    },
+    "www.adatum.com": {
+      "original": "www.adatum.com",
+      "replacement": "https://example8.com",
+      "type": "URL"
+    },
+    "eugenia lopez": {
+      "original": "Eugenia Lopez",
+      "replacement": "Persona 2",
+      "type": "PERSON"
+    },
+    "606-555-0156": {
+      "original": "606-555-0156",
+      "replacement": "+39 000 000 0001",
+      "type": "PHONE"
+    },
+    "bookman old": {
+      "original": "Bookman Old",
+      "replacement": "Persona 3",
+      "type": "PERSON"
+    },
+    "adatum.com": {
+      "original": "adatum.com",
+      "replacement": "example2.com",
+      "type": "DOMAIN"
+    },
+    "www.w3.org": {
+      "original": "www.w3.org",
+      "replacement": "example3.com",
+      "type": "DOMAIN"
+    },
+    "milestone": {
+      "original": "Milestone",
+      "replacement": "Azienda 5",
+      "type": "COMPANY"
+    },
+    "purl.org": {
+      "original": "purl.org",
+      "replacement": "example4.com",
+      "type": "DOMAIN"
+    },
+    "you</vt": {
+      "original": "you</vt",
+      "replacement": "Persona 4",
+      "type": "PERSON"
+    },
+    "agenda": {
+      "original": "Agenda",
+      "replacement": "Prodotto 1",
+      "type": "PRODUCT"
+    },
+    "aptos": {
+      "original": "Aptos",
+      "replacement": "Luogo 1",
+      "type": "LOCATION"
+    },
+    "edge": {
+      "original": "Edge",
+      "replacement": "Azienda 6",
+      "type": "COMPANY"
+    }
+  }
+}

@@ -34,7 +34,8 @@ print(z)
 
 
 # Prendo gli input dell'utente
-utente = input("Scrivi qualcosa: ")
+# input -> "10" -> int(10) -> 10
+utente = int(input("Scrivi qualcosa: "))
 print(utente)
 
 

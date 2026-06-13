@@ -1,12 +1,13 @@
 # Esempio 1: while senza lista
 # Conto alla rovescia di un timer.
-secondi = 5
 
+secondi = 5
 while secondi > 0:
     print("Mancano", secondi, "secondi")
     secondi = secondi - 1
 
 print("Tempo scaduto")
+print()
 
 
 # Esempio 2: while con lista

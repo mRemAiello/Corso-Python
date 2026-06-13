@@ -23,7 +23,7 @@
 
 # --- Esempi rapidi ---
 
-lista  = [1, 2, 2, 3]          # modificabile, duplicati ammessi
-tupla  = (1, 2, 2, 3)          # immutabile,   duplicati ammessi
-gruppo = {1, 2, 3}             # niente duplicati, niente indice
-diz    = {"a": 1, "b": 2}      # accesso per chiave: diz["a"] → 1
+lista = [1, 2, 2, 3]            # modificabile, duplicati ammessi
+tupla = (1, 2, 2, 3)            # immutabile,   duplicati ammessi
+gruppo = {1, 2, 3}              # niente duplicati, niente indice
+diz = {"a": 1, "b": 2}          # accesso per chiave: diz["a"] → 1

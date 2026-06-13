@@ -1,0 +1,245 @@
+{
+  "file_name": "presentazione.pptx",
+  "slides": [
+    {
+      "slide_number": 1,
+      "texts": [
+        "Pitch deck",
+        "Eugenia Lopez"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 2,
+      "texts": [
+        "Agenda",
+        "About us\nProduct overview\nMarket overview\nGrowth strategy\nSummary"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 3,
+      "texts": [
+        "About us",
+        "Aiming to revolutionize industries \u000bthrough our forward-thinking solutions"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 4,
+      "texts": [
+        "Product overview",
+        "Combining functionality and user-friendliness, we empower users to streamline operations and boost efficiency"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 5,
+      "texts": [
+        "Product \u000bbenefits",
+        "Increased productivity\nSeamless integration\nEnhanced user experience\nScalability for future growth\nUser-friendly learning"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 6,
+      "texts": [
+        "Market overview"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 7,
+      "texts": [
+        "Market \u000bcomparison",
+        "Stands out in market\nInnovative features\nProvides unique solution\nEdge over competitors\nUser-focused design\nPrioritizes user experience"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 8,
+      "texts": [
+        "Competitive landscape",
+        "Strong market presence\nPositioned as a market leader\nLeveraging a robust infrastructure\nDedicated team of experts\nOutperforming competitors\nGood brand name recognition",
+        "Need:\nMore agility and adaptability\nStronger competitive edge\nAbility to adapt swiftly\nStay ahead of the curve\nContinuously improve offerings\nIntegrate user feedback"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 9,
+      "texts": [
+        "Growth strategy",
+        "Expand market reach through strategic partnerships\nEnhance product features based on user feedback\nExplore international market opportunities"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 10,
+      "texts": [
+        "Traction",
+        "Product launch\nSuccessful introduction of our product to market\n10,000 user milestone\nSubstantial user base, indicating growing demand\nStrategic partnership\nExpanding market presence and capabilities"
+      ],
+      "tables": [
+        [
+          [
+            "Milestone",
+            "Quarter"
+          ],
+          [
+            "Product launch",
+            "Q1"
+          ],
+          [
+            "10,000 user milestone",
+            "Q2"
+          ],
+          [
+            "Strategic partnership",
+            "Q3"
+          ],
+          [
+            "Campaign launch",
+            "Q4"
+          ]
+        ]
+      ],
+      "notes": []
+    },
+    {
+      "slide_number": 11,
+      "texts": [
+        "Financials"
+      ],
+      "tables": [
+        [
+          [
+            "Quarter",
+            "Revenue ($)",
+            "Expenses ($)",
+            "Net profit ($)"
+          ],
+          [
+            "Q1",
+            "$200,000",
+            "$150,000",
+            "$50,000"
+          ],
+          [
+            "Q2",
+            "$300,000",
+            "$200,000",
+            "$100,000"
+          ],
+          [
+            "Q3",
+            "$400,000",
+            "$250,000",
+            "$150,000"
+          ],
+          [
+            "Q4",
+            "$300,000",
+            "$200,000",
+            "$100,000"
+          ]
+        ]
+      ],
+      "notes": []
+    },
+    {
+      "slide_number": 12,
+      "texts": [
+        "Summary",
+        "With this product, Adatum Corporation is positioned for success in the dynamic market. \nWith a focus on innovation, user experience, and strategic growth, we anticipate reaching new heights in the coming year.\nOur commitment to user satisfaction underscores every aspect of our operations.",
+        "Strong market positioning\nRobust growth strategy\nInnovative product development\nCommitment to user satisfaction"
+      ],
+      "tables": [],
+      "notes": []
+    },
+    {
+      "slide_number": 13,
+      "texts": [
+        "Thank you",
+        "Eugenia Lopez\n606-555-0156\neugenia@adatum.com\nwww.adatum.com"
+      ],
+      "tables": [],
+      "notes": []
+    }
+  ],
+  "metadata": {
+    "core.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>Title Lorem Ipsum</dc:title><dcterms:created xsi:type=\"dcterms:W3CDTF\">2023-08-29T05:41:17Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2025-01-23T06:39:21Z</dcterms:modified></cp:coreProperties>",
+    "app.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\" xmlns:vt=\"http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes\"><Template></Template><TotalTime>4957</TotalTime><Words>321</Words><Application>Microsoft Office PowerPoint</Application><PresentationFormat>Widescreen</PresentationFormat><Paragraphs>101</Paragraphs><Slides>13</Slides><Notes>0</Notes><HiddenSlides>0</HiddenSlides><MMClips>0</MMClips><ScaleCrop>false</ScaleCrop><HeadingPairs><vt:vector size=\"6\" baseType=\"variant\"><vt:variant><vt:lpstr>Fonts Used</vt:lpstr></vt:variant><vt:variant><vt:i4>5</vt:i4></vt:variant><vt:variant><vt:lpstr>Theme</vt:lpstr></vt:variant><vt:variant><vt:i4>1</vt:i4></vt:variant><vt:variant><vt:lpstr>Slide Titles</vt:lpstr></vt:variant><vt:variant><vt:i4>13</vt:i4></vt:variant></vt:vector></HeadingPairs><TitlesOfParts><vt:vector size=\"19\" baseType=\"lpstr\"><vt:lpstr>Aptos Light</vt:lpstr><vt:lpstr>Aptos SemiBold</vt:lpstr><vt:lpstr>Arial</vt:lpstr><vt:lpstr>Bookman Old Style</vt:lpstr><vt:lpstr>Calibri</vt:lpstr><vt:lpstr>Damask</vt:lpstr><vt:lpstr>Pitch deck</vt:lpstr><vt:lpstr>Agenda</vt:lpstr><vt:lpstr>About us</vt:lpstr><vt:lpstr>Product overview</vt:lpstr><vt:lpstr>Product  benefits</vt:lpstr><vt:lpstr>Market overview</vt:lpstr><vt:lpstr>Market  comparison</vt:lpstr><vt:lpstr>Competitive landscape</vt:lpstr><vt:lpstr>Growth strategy</vt:lpstr><vt:lpstr>Traction</vt:lpstr><vt:lpstr>Financials</vt:lpstr><vt:lpstr>Summary</vt:lpstr><vt:lpstr>Thank you</vt:lpstr></vt:vector></TitlesOfParts><Company></Company><LinksUpToDate>false</LinksUpToDate><SharedDoc>false</SharedDoc><HyperlinksChanged>false</HyperlinksChanged><AppVersion>16.0000</AppVersion></Properties>"
+  },
+  "images": [
+    {
+      "file_name": "hdphoto1.wdp",
+      "path": "pptx_extracted\\images\\hdphoto1.wdp"
+    },
+    {
+      "file_name": "hdphoto2.wdp",
+      "path": "pptx_extracted\\images\\hdphoto2.wdp"
+    },
+    {
+      "file_name": "hdphoto3.wdp",
+      "path": "pptx_extracted\\images\\hdphoto3.wdp"
+    },
+    {
+      "file_name": "hdphoto4.wdp",
+      "path": "pptx_extracted\\images\\hdphoto4.wdp"
+    },
+    {
+      "file_name": "hdphoto5.wdp",
+      "path": "pptx_extracted\\images\\hdphoto5.wdp"
+    },
+    {
+      "file_name": "image1.jpeg",
+      "path": "pptx_extracted\\images\\image1.jpeg"
+    },
+    {
+      "file_name": "image10.png",
+      "path": "pptx_extracted\\images\\image10.png"
+    },
+    {
+      "file_name": "image2.png",
+      "path": "pptx_extracted\\images\\image2.png"
+    },
+    {
+      "file_name": "image3.png",
+      "path": "pptx_extracted\\images\\image3.png"
+    },
+    {
+      "file_name": "image4.png",
+      "path": "pptx_extracted\\images\\image4.png"
+    },
+    {
+      "file_name": "image5.png",
+      "path": "pptx_extracted\\images\\image5.png"
+    },
+    {
+      "file_name": "image6.png",
+      "path": "pptx_extracted\\images\\image6.png"
+    },
+    {
+      "file_name": "image7.png",
+      "path": "pptx_extracted\\images\\image7.png"
+    },
+    {
+      "file_name": "image8.png",
+      "path": "pptx_extracted\\images\\image8.png"
+    },
+    {
+      "file_name": "image9.png",
+      "path": "pptx_extracted\\images\\image9.png"
+    }
+  ],
+  "links": []
+}
