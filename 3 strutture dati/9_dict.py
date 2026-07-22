@@ -20,10 +20,10 @@ print(len(persona))
 # Singolo valore
 print(persona["eta"])
 
-# Ottengo tutte le chiavi
+# Ottengo tutte le chiavi -> dict_keys
 print(persona.keys())
 
-# Ottengo i valori
+# Ottengo i valori -> dict_values
 print(persona.values())
 
 # Controllare l'esistenza di una specifica chiave
@@ -72,5 +72,6 @@ print()
 
 # Entrambi
 # persona.items() -> ("nome", "Marco"), ("cognome", "Rossi")
+print(persona.items())
 for chiave, valore in persona.items():
     print(chiave, valore)

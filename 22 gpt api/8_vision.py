@@ -38,13 +38,20 @@ def analizza_immagine_locale(percorso_immagine: str, domanda: str) -> str:
     with open(percorso_immagine, "rb") as f:
         immagine_base64 = base64.b64encode(f.read()).decode("utf-8")
 
+    print("Immagine in base64")
+    print(f"data:image/jpeg;base64,{immagine_base64}")
+    print("\n\n")
+
     risposta = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {
                 "role": "user",
                 "content": [
-                    {"type": "text", "text": domanda},
+                    {
+                        "type": "text",
+                        "text": domanda
+                    },
                     {
                         "type": "image_url",
                         "image_url": {
@@ -60,5 +67,5 @@ def analizza_immagine_locale(percorso_immagine: str, domanda: str) -> str:
 
 
 # Esempio (decommentare con un percorso immagine valido):
-# risultato = analizza_immagine_locale("foto.jpg", "Cosa c'è in questa foto?")
-# print(risultato)
+risultato = analizza_immagine_locale("cane.png", "Cosa c'è in questa foto?")
+print(risultato)

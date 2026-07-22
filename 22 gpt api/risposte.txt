@@ -1,37 +1,176 @@
-MAC Formazione � un ente di formazione professionale che offre corsi e programmi educativi in diverse aree tematiche, spesso focalizzati sulle competenze professionali e il miglioramento delle abilit� lavorative. La missione di enti come MAC Formazione � quella di fornire agli studenti le conoscenze e le competenze necessarie per affrontare le sfide del mercato del lavoro e migliorare le loro opportunit� professionali.
-
-I corsi possono coprire una vasta gamma di argomenti, tra cui management, marketing, comunicazione, tecnologie informatiche, lingue straniere e altro ancora. Inoltre, spesso vengono offerti corsi di aggiornamento per professionisti gi� inseriti nel mondo del lavoro.
-
-Se desideri informazioni specifiche su corsi, modalit� di iscrizione, sedi o altre domande relative a MAC Formazione, ti consiglio di visitare il loro sito ufficiale o contattarli direttamente.```json
 {
-  "nome": "NumPy",
-  "descrizione": "NumPy è una libreria fondamentale per la programmazione scientifica in Python. Fornisce supporto per array multidimensionali e funzioni matematiche ad alte prestazioni per operare su questi array.",
-  "caratteristiche": {
-    "array_multidimensionali": "Supporta array n-dimensionali chiamati 'ndarray'.",
-    "funzioni_matematiche": "Include un grande numero di funzioni matematiche avanzate per operazioni su array.",
-    "broadcasting": "Permette operazioni su array di forme diverse.",
-    "integrazione": "Facilita l'integrazione con altre librerie scientifiche come SciPy, Matplotlib e Pandas.",
-    "performance": "Ottimizzato per la velocità grazie a implementazioni in C e Fortran."
-  },
-  "utilizzi": [
-    "Analisi dei dati",
-    "Elaborazione di immagini",
-    "Calcolo numerico",
-    "Machine Learning",
-    "Simulazioni scientifiche"
+  "lingua": "it",
+  "argomento": "Python",
+  "panoramica": "Python è un linguaggio di programmazione di alto livello, dinamico e multi-paradigma (procedurale, orientato agli oggetti e funzionale). È noto per la sintassi leggibile e l’ampio ecosistema di librerie che lo rendono adatto da script rapidi a sistemi in produzione.",
+  "punti_chiave": [
+    "Sintassi chiara e coerente",
+    "Ampia libreria standard e ricco ecosistema",
+    "Tipizzazione dinamica con suggerimenti di tipo opzionali (type hints)",
+    "Gestione semplice di pacchetti e ambienti",
+    "Portabilità multipiattaforma"
   ],
-  "installazione": {
-    "comando_pip": "pip install numpy",
-    "documentazione": "https://numpy.org/doc/"
-  }
+  "usi_principali": [
+    "Scripting e automazione",
+    "Sviluppo web (backend e API)",
+    "Data science e analisi dati",
+    "Machine learning e AI",
+    "DevOps, test e strumenti CLI",
+    "Computazione scientifica",
+    "Prototipazione rapida"
+  ],
+  "ecosistema": {
+    "web": {
+      "framework": ["Django", "Flask", "FastAPI", "Starlette"]
+    },
+    "data_science": {
+      "librerie": ["NumPy", "pandas", "Matplotlib", "Seaborn", "Polars"]
+    },
+    "machine_learning": {
+      "librerie": ["scikit-learn", "TensorFlow", "PyTorch", "XGBoost", "LightGBM"]
+    },
+    "scientifico": {
+      "librerie": ["SciPy", "SymPy", "JAX"]
+    },
+    "etl_e_big_data": {
+      "librerie": ["Airflow", "Dask", "PySpark"]
+    },
+    "cli_e_tooling": {
+      "librerie": ["argparse", "click", "typer", "rich"]
+    }
+  },
+  "strumenti": {
+    "interpreti": ["CPython (predefinito)", "PyPy (JIT)", "MicroPython (embedded)"],
+    "gestione_pacchetti": ["pip", "venv", "virtualenv", "conda", "poetry", "pipenv"],
+    "qualita_codice": ["black", "ruff", "flake8", "isort", "mypy", "pytest", "hypothesis"],
+    "build_e_distribuzione": ["setuptools", "build", "wheel", "twine"]
+  },
+  "sintassi_rapida": [
+    {
+      "concetto": "Variabili e tipi",
+      "esempio": "x = 10\nmessage = 'ciao'\npi = 3.14\nok = True"
+    },
+    {
+      "concetto": "Liste e comprensioni",
+      "esempio": "nums = [1, 2, 3, 4]\npari_quad = [n*n for n in nums if n % 2 == 0]"
+    },
+    {
+      "concetto": "Dizionari",
+      "esempio": "capitali = {'IT': 'Roma', 'FR': 'Parigi'}\ncapitali['DE'] = 'Berlino'"
+    },
+    {
+      "concetto": "Funzioni e type hints",
+      "esempio": "from typing import List\n\ndef media(x: List[float]) -> float:\n    return sum(x) / len(x)"
+    },
+    {
+      "concetto": "Classi e dataclass",
+      "esempio": "from dataclasses import dataclass\n\n@dataclass\nclass Punto:\n    x: float\n    y: float"
+    },
+    {
+      "concetto": "Gestione file (context manager)",
+      "esempio": "with open('dati.txt', 'r', encoding='utf-8') as f:\n    contenuto = f.read()"
+    },
+    {
+      "concetto": "Pattern matching",
+      "esempio": "def descrivi(x):\n    match x:\n        case 0:\n            return 'zero'\n        case [a, b]:\n            return f'lista con due elementi: {a}, {b}'\n        case _:\n            return 'altro'"
+    },
+    {
+      "concetto": "Asincronia",
+      "esempio": "import asyncio\n\nasync def lavoro():\n    await asyncio.sleep(0.1)\n    return 'ok'\n\nasyncio.run(lavoro())"
+    }
+  ],
+  "esempio_completo": "from dataclasses import dataclass\nimport asyncio\n\n@dataclass\nclass Persona:\n    nome: str\n    eta: int\n\ndef saluta(p: Persona) -> str:\n    return f\"Ciao {p.nome}, hai {p.eta} anni.\"\n\nnumeri = [1, 2, 3, 4, 5]\nquadrati_pari = [n*n for n in numeri if n % 2 == 0]\n\nasync def lavoro():\n    await asyncio.sleep(0.05)\n    return 'fatto'\n\nasync def main():\n    print(saluta(Persona('Ada', 28)))\n    print('Quadrati pari:', quadrati_pari)\n    res = await lavoro()\n    print('Async:', res)\n\nif __name__ == '__main__':\n    asyncio.run(main())",
+  "prestazioni": {
+    "nota": "Python privilegia la produttività rispetto alla velocità pura. Il GIL limita l’esecuzione parallela dei thread CPU-bound, ma I/O e multiprocessing restano efficaci.",
+    "come_ottimizzare": [
+      "Usare librerie vettorizzate (NumPy, pandas) per calcoli",
+      "Profilare (cProfile, py-spy) per trovare colli di bottiglia",
+      "Cython/Numba o estensioni C per hot path",
+      "Multiprocessing o joblib per CPU-bound",
+      "Asyncio per I/O concorrente",
+      "PyPy per alcuni carichi di lavoro"
+    ]
+  },
+  "pro_e_contro": {
+    "pro": [
+      "Curva di apprendimento dolce",
+      "Ecosistema vasto e comunità attiva",
+      "Ottimo per prototipazione e data science",
+      "Portabilità e integrazione con altri linguaggi"
+    ],
+    "contro": [
+      "Prestazioni inferiori rispetto a C/C++/Rust/Go per CPU-bound",
+      "GIL limita parallelismo con thread CPU-bound",
+      "Distribuzione di binari nativi talvolta complessa su alcune piattaforme"
+    ]
+  },
+  "pratiche_consigliate": [
+    "Usare ambienti virtuali (venv/conda)",
+    "Aggiungere type hints e controllarli con mypy",
+    "Formattare con black e ordinare import con isort",
+    "Scrivere test (pytest) e usare CI",
+    "Bloccare dipendenze (requirements.txt o poetry.lock)",
+    "Separare codice applicativo da script di esecuzione (if __name__ == '__main__')"
+  ],
+  "versioni": {
+    "corrente_stabile_al_2024_10": "3.13",
+    "note": [
+      "Python 3 introduce unicode nativo, print come funzione, divisione vera, e molte pulizie rispetto a Python 2",
+      "Pattern matching strutturale (3.10+)",
+      "Tipi più espressivi: dataclasses, typing migliorato (PEP 563/649 evoluzioni), Annotated, TypedDict",
+      "Prestazioni e ottimizzazioni runtime migliorate nelle versioni recenti"
+    ],
+    "fine_vita": "Python 2 è EOL dal 2020"
+  },
+  "come_iniziare": {
+    "passi": [
+      {
+        "titolo": "Installazione",
+        "comandi": [
+          "python --version",
+          "python3 --version"
+        ],
+        "nota": "Installa Python 3.x dal sito ufficiale o via gestore pacchetti della tua piattaforma."
+      },
+      {
+        "titolo": "Crea un ambiente virtuale",
+        "comandi": [
+          "python -m venv .venv",
+          "source .venv/bin/activate  # Unix/macOS",
+          ".venv\\\\Scripts\\\\activate  # Windows"
+        ]
+      },
+      {
+        "titolo": "Installa dipendenze",
+        "comandi": [
+          "pip install requests numpy pandas"
+        ]
+      },
+      {
+        "titolo": "Crea ed esegui uno script",
+        "comandi": [
+          "echo \"print('Ciao Python')\" > app.py",
+          "python app.py"
+        ]
+      }
+    ],
+    "risorse": [
+      "https://docs.python.org/3/",
+      "https://pypi.org/",
+      "https://realpython.com/"
+    ]
+  },
+  "faq": [
+    {
+      "q": "Python è tipizzato?",
+      "a": "Sì, è dinamicamente tipizzato ma supporta annotazioni di tipo opzionali verificate da strumenti statici."
+    },
+    {
+      "q": "Come gestisco le dipendenze?",
+      "a": "Usa venv + pip o strumenti come poetry/conda per ambienti riproducibili."
+    },
+    {
+      "q": "Posso fare applicazioni veloci?",
+      "a": "Per I/O e prototipi sì. Per CPU-bound usa librerie native, Cython/Numba, o valuta un linguaggio complementare."
+    }
+  ]
 }
-```Ciao! Ecco un esempio di risposta in formato JSON:
-
-```json
-{
-  "greeting": "Ciao",
-  "message": "Come posso aiutarti oggi?"
-}
-```
-
-Se hai bisogno di ulteriori informazioni o un altro formato, fammelo sapere!

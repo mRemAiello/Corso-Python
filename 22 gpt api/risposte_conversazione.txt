@@ -1,40 +1,23 @@
 Role: system
 Sei un assistente esperto di cucina italiana.
+Rispondi in maniera sintetica e diretta, non superare le 100 parole.
+Qualora ti venga posta una domanda NON relativa alla cucina, rispondi che non hai conoscenze in merito
 
 Role: user
-Come si cucina la carbonara?
+Dimmi come si cucina una carbonara
 
 Role: assistant
-La pasta alla carbonara è un piatto tipico della cucina romana, semplice ma ricco di sapore. Ecco la ricetta tradizionale per prepararla:
+Per preparare la carbonara, cuoci 400 g di spaghetti in acqua salata. In una padella, rosola 150 g di guanciale tagliato a cubetti fino a renderlo croccante. In una ciotola, sbatti 3 tuorli e 1 uovo intero con 100 g di pecorino romano grattugiato e pepe nero. Scola la pasta al dente, amalgamala con il guanciale e versa il composto di uova, mescolando velocemente per creare una crema. Servi immediatamente con altro pecorino e pepe a piacere.
 
-### Ingredienti (per 4 persone)
-- 400 g di spaghetti o rigatoni
-- 150 g di guanciale (o pancetta, ma il guanciale è tradizionale)
-- 4 tuorli d'uovo
-- 1 uovo intero
-- 100 g di pecorino romano grattugiato
-- Sale (per l'acqua della pasta)
-- Pepe nero macinato al momento
+Role: user
+Utilizzo parmigiano invece di pecorino romano?
 
-### Procedimento
+Role: assistant
+Sï¿½, puoi utilizzare il parmigiano invece del pecorino romano, ma il sapore sarï¿½ diverso. Il parmigiano ï¿½ piï¿½ dolce e meno salato rispetto al pecorino. Adatta le quantitï¿½ secondo le tue preferenze, mantenendo la stessa tecnica di preparazione per la carbonara.
 
-1. **Preparare gli ingredienti**: Taglia il guanciale a cubetti o a striscioline.
+Role: user
+Al posto dell'uovo posso utilizzare l'anguria?
 
-2. **Cuocere la pasta**: Porta a ebollizione una pentola d'acqua salata. Cuoci la pasta seguendo il tempo di cottura indicato sulla confezione fino a poco prima che sia al dente (di solito 1-2 minuti in meno).
-
-3. **Rosolare il guanciale**: In una padella ampia, fai rosolare il guanciale a fuoco medio fino a che diventa croccante e il grasso si scioglie. Ci vorranno circa 5-7 minuti. Non è necessario aggiungere olio, poiché il guanciale rilascerà il suo grasso.
-
-4. **Preparare la crema d’uovo**: In una ciotola, sbatti i tuorli e l'uovo intero. Aggiungi il pecorino grattugiato e una generosa dose di pepe nero. Mescola bene fino a ottenere una crema omogenea.
-
-5. **Scolare la pasta**: Quando la pasta è pronta, scolala, conservando un bicchiere di acqua di cottura.
-
-6. **Mescolare**: Versa la pasta nella padella con il guanciale (togli dal fuoco per evitare di cuocere le uova) e mescola rapidamente. Aggiungi la crema d'uovo e un po' dell'acqua di cottura della pasta per ottenere una consistenza cremosa. Mescola bene fino a quando la salsa non si condensa.
-
-7. **Servire**: Impiatta la carbonara e spolvera con altro pecorino romano e pepe nero a piacere.
-
-### Consigli
-- È importante mescolare rapidamente in modo che le uova non si rapprendano ma diventino cremose.
-- La qualità degli ingredienti è fondamentale per un buon risultato, quindi utilizza guanciale e pecorino di alta qualità.
-
-Buon appetito!
+Role: assistant
+Non si puï¿½ sostituire l'uovo con l'anguria nella carbonara. L'uovo ï¿½ fondamentale per creare la crema e legare gli ingredienti. L'anguria non avrebbe la stessa funzione nï¿½ il sapore adatto per questo piatto.
 

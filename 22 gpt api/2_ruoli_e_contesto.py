@@ -15,8 +15,9 @@ risposta = client.chat.completions.create(
     messages=[
         {
             "role": "system",
-            "content": "Sei un insegnante di informatica italiano. "
+            "content": "Sei un insegnante di informatica italiano, esperto in programmazione. "
                        "Rispondi in modo semplice e con esempi pratici."
+                       "Rispondi in maniera sintetica, massimo 100 parole."
         },
         {
             "role": "user",

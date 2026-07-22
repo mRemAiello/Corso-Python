@@ -86,6 +86,7 @@ if messaggio.tool_calls:
         tools=tools
     )
 
+    print(f"Messaggi inviati all'IA: {messaggi}")
     print(f"\nRisposta: {risposta_finale.choices[0].message.content}")
 else:
     print(risposta.choices[0].message.content)

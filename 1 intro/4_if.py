@@ -58,6 +58,10 @@ if (panini > 10 and panini < 13) or panini == 1:
 if not panini > 10:
     print("C'è abbastanza pane")
 
+# Non ho 10 panini
+if panini != 10:
+    print("")
+
 
 # Esercizi
 

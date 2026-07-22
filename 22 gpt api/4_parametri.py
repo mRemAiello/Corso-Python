@@ -42,3 +42,4 @@ risposta_det = client.chat.completions.create(
 )
 
 print(risposta_det.choices[0].message.content)
+

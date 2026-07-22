@@ -103,3 +103,5 @@
 
 # Creare una funzione crea_lista_di_fattoriali() che prende un intero n, e restituisce una
 # lista contenente tutti i fattoriali (ex. n = 4, la lista contiene il fattoriale di 1, 2, 3, 4)
+
+# Fai lo stesso esercizio ma invece di un numero, utilizza come parametro della funzione una lista.

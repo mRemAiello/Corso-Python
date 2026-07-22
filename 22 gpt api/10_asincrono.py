@@ -4,6 +4,14 @@ from openai_setup import get_async_client
 # Client asincrono per richieste parallele
 client = get_async_client()
 
+# Sincrono
+# funzione1 -> funzione2 -> funzione3
+
+# Asincrono
+# funzione1 -> 10:30
+# funzione2 -> 10:01
+# funzione3 -> 10:05
+
 
 async def richiesta_singola(domanda: str, indice: int) -> str:
     """Esegue una singola richiesta asincrona."""
@@ -61,7 +69,7 @@ async def richieste_parallele():
 
 
 async def main():
-    await streaming_asincrono()
+    # await streaming_asincrono()
     await richieste_parallele()
 
 

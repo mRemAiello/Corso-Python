@@ -4,14 +4,14 @@ from openai_setup import get_client
 
 client = get_client()
 
-question = input("Scrivi la domanda da fare a gpt")
+question = input("Scrivi la domanda da fare a GPT: ")
 question += "\nFornisci la risposta in JSON"
 
 # Richiesta base: una singola domanda
 risposta = client.chat.completions.create(
-    model="gpt-4o-mini",
+    model="gpt-5",
     messages=[
-        {"role": "user", "content": question}
+        { "role": "user", "content": question }
     ]
 )
 
@@ -22,6 +22,7 @@ risposta = client.chat.completions.create(
 
 # Stampare la risposta
 print(risposta.choices[0].message.role)
+print(risposta.choices[0].message.content)
 
 stringa = risposta.choices[0].message.content
 file = open("risposte.txt", "a", encoding="utf-8")

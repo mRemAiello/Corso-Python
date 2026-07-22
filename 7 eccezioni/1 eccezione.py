@@ -1,6 +1,7 @@
 try:
 
     numero = int(input("Inserisci un numero: "))
+    print("Numero correttamente inserito")
 
 except ValueError:
 
